@@ -4,11 +4,9 @@
 // Fonts
 @mixin sans {
   font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
 @mixin iconfont {
   font-family: "FontAwesome";
-  -webkit-font-smoothing: antialiased;
 }
 @font-face {
   font-family: "FontAwesome";
@@ -24,7 +22,7 @@ body {
   @include sans;
   font-size: 17px;
 	font-weight: 400;
-	color: black;
+	color: $DarkGrey;
 }
 
 // Typography
@@ -66,7 +64,7 @@ h4 {
 nav {
 	width: 100%;
 	font-size: .85em;
-	font-weight: 900;
+	font-weight: 700;
 	margin-bottom: 3.3em;
 	padding-top: 1em;
 	letter-spacing: .2em;
@@ -81,13 +79,23 @@ nav {
 	}
 }
 
-.permalink-icon {
-	@include iconfont;
-	font-size: 1.4em;
-	padding-left: .4em;
+.link-icon {
+	font-size: 1.2em;
+	padding-left: .5em;
+	color: $MiddleGrey;
 	a{
 		text-decoration: none;
-		color: $MiddleGrey;
+		color: $Purple;
+	}
+}
+
+.permalink-icon {
+	font-size: inherit;
+	padding-left: 1em;
+	margin-top: -1em;
+	a{
+		text-decoration: none;
+		color: $Purple;
 	}
 }
 
@@ -108,6 +116,7 @@ nav {
 
 .link-post-title {
 	font-size: 1.45em;
+	font-weight: 600;
 	a {
 		color: $LinkColor;
 		text-decoration: none;
@@ -117,8 +126,9 @@ nav {
 
 .post-title {
 	font-size: 2.1em;
+	font-weight: 700;
 	a {
-		color: $DarkGrey;
+		color: $Purple;
 		text-decoration: none;
 	}
 }
@@ -153,13 +163,27 @@ nav {
 }
 
 .date {
-	font-size: 1.05em;
+	font-size: .9em;
+	font-weight: 600;
 	color: $MiddleGrey;
 	padding-top: .5em;
+	letter-spacing: .02em;
 }
 
 .recent-date {
 	color: $MiddleGrey;
 	font-size: 1em;
 	float: right;
+}
+
+blockquote {
+	color: $MiddleGrey;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding-left: 1.5em;
+  border-left: 2px solid $Purple;
+} 
+
+blockquote p {
+  display: inline;
 }

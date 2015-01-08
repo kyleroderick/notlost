@@ -1,0 +1,90 @@
+@import "reset";
+@import "bits";
+@import "type";
+@import "compass/css3";
+
+// Reusable Classes
+
+.contain {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-top: 50px;
+  background: #fff;
+  img {
+	max-width: 100%
+  }
+}
+
+.img {
+	float: left;
+	max-width: 80%
+}
+
+
+.blog-link {
+	text-align: center;
+	line-height: 0%;
+	a {
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: normal;
+	color: $MiddleGrey;
+	border-bottom: 1px solid $MiddleGrey;
+	}
+}
+
+.file-link {
+  text-align: center;
+	line-height: 0%;
+	a {
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: normal;
+	color: $MiddleGrey;
+	border-bottom: 1px solid $MiddleGrey;
+	}
+}
+
+
+
+
+
+small {
+	padding: 0 auto;
+}
+
+
+.footer {
+	padding-top: 3em;
+	text-align: center;
+}
+
+@media print {
+  body { font-size: 12px; }
+  header { border: 0;padding: 0; margin: 0; text-align: center; }
+  .downloads, .byline, footer { display: none; }
+  header hgroup { border: 0; padding: 0; margin: 0; }
+  header h1 { margin: 0; padding: 0; font-size: 3em; border: 0; }
+  header h2 { border: 0; margin: 0; }
+  .downloads, footer { display: none; }
+  section { border: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
