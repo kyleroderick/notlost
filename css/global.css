@@ -10,59 +10,45 @@
 body {
   font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 100%; }
+  font-size: 17px;
+  font-weight: 400;
+  color: black; }
 
 p {
-  padding-bottom: 2em; }
+  line-height: 1.75em; }
   p a {
     text-decoration: none;
     color: #444;
     border-bottom: 1px solid #3A478D; }
 
 h1 {
+  font-weight: 700;
   line-height: normal; }
 
 h3 {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-size: 2em;
   line-height: normal;
-  font-weight: 400; }
+  font-weight: 700; }
   h3 a {
     text-decoration: none;
     color: #777; }
 
-.contain {
-  max-width: 600px;
-  margin: 50px auto;
-  margin-top: 50px;
-  background: #fff; }
-  .contain img {
-    max-width: 100%; }
-
-.img {
-  float: left;
-  max-width: 80%; }
-
-a {
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
-
-body {
-  position: relative;
-  color: black;
-  line-height: 2em; }
+h4 {
+  font-weight: 700;
+  line-height: 1.75em; }
+  h4 a {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 0px solid #3A478D; }
 
 nav {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   width: 100%;
-  font-size: 1.2em;
-  font-weight: 300;
+  font-size: .85em;
+  font-weight: 900;
   margin-bottom: 3.3em;
-  padding-top: 1em; }
+  padding-top: 1em;
+  letter-spacing: .2em;
+  text-transform: uppercase; }
   nav li {
     display: inline;
     padding-right: 2em; }
@@ -80,42 +66,18 @@ nav {
     color: #888; }
 
 .header {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-weight: 300;
   font-size: 1.2em; }
   .header a {
     text-decoration: none;
     color: #444; }
 
-.super-quote {
-  padding-bottom: 1.5em; }
-  .super-quote h1 {
-    font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-weight: 300;
-    font-size: 1.8em;
-    line-height: 1.5em;
-    text-align: center;
-    color: #3A478D; }
-
-.list-title {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 300;
-  font-size: 1.5em; }
-
 .page {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-weight: 300;
   font-size: 2em;
   color: #3A478D; }
 
 .link-post-title {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 500;
   font-size: 1.45em; }
   .link-post-title a {
     color: #777;
@@ -123,15 +85,13 @@ nav {
     border-bottom: 1px solid #DEDEDE; }
 
 .post-title {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 600;
   font-size: 2.1em; }
   .post-title a {
     color: #444;
     text-decoration: none; }
 
 .post-body {
+  color: aqua;
   line-height: 2.1em; }
   .post-body a {
     color: #888;
@@ -159,19 +119,27 @@ nav {
   padding-top: .5em; }
 
 .recent-date {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   color: #888;
   font-size: 1em;
   float: right; }
+
+.contain {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-top: 50px;
+  background: #fff; }
+  .contain img {
+    max-width: 100%; }
+
+.img {
+  float: left;
+  max-width: 80%; }
 
 .recent-posts {
   display: block;
   padding-bottom: 1.3em; }
 
 .recent-title {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-size: 1.5em; }
   .recent-title a {
     text-decoration: none;
@@ -188,8 +156,6 @@ nav {
     color: #888; }
 
 .blog-title {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-weight: 300;
   font-size: 2.5em;
   line-height: normal;
@@ -203,8 +169,6 @@ nav {
     border-bottom: 1px solid #3A478D; }
 
 .blog-link {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   text-align: center;
   line-height: 0%; }
   .blog-link a {
@@ -215,8 +179,6 @@ nav {
     border-bottom: 1px solid #888; }
 
 .file-link {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
   text-align: center;
   line-height: 0%; }
   .file-link a {

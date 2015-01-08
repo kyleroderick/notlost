@@ -19,15 +19,18 @@
   display: inline-block;
   line-height: 1;
 }
+
 body {
   @include sans;
-  font-size: 100%;
+  font-size: 17px;
+	font-weight: 400;
+	color: black;
 }
 
 // Typography
 
 p {
-padding-bottom: 2em;
+  line-height: 1.75em;
 	a {
 	text-decoration: none;
 	color: $DarkGrey;
@@ -36,16 +39,127 @@ padding-bottom: 2em;
 }
 
 h1 {
+  font-weight: 700;
 	line-height: normal;
 }
 
 h3 {
-	@include sans;
 	font-size: 2em;
 	line-height: normal;
-	font-weight: 400;
+	font-weight: 700;
 	a {
 		text-decoration: none;
 		color: $LinkColor;
 	}
+}
+
+h4 {
+  font-weight: 700;
+  line-height: 1.75em;
+  a {
+    text-decoration: none;
+    color: $DarkGrey;
+    border-bottom:0px solid $Purple;
+    }
+}
+
+nav {
+	width: 100%;
+	font-size: .85em;
+	font-weight: 900;
+	margin-bottom: 3.3em;
+	padding-top: 1em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	li {
+		display:inline;
+		padding-right: 2em;
+	}	
+	a {
+		text-decoration: none;
+		color: $DarkGrey;
+	}
+}
+
+.permalink-icon {
+	@include iconfont;
+	font-size: 1.4em;
+	padding-left: .4em;
+	a{
+		text-decoration: none;
+		color: $MiddleGrey;
+	}
+}
+
+.header {
+	font-weight: 300;
+	font-size: 1.2em;
+	a {
+		text-decoration: none;
+		color: $DarkGrey;
+	}
+}
+
+.page {
+	font-weight: 300;
+	font-size: 2em;
+	color: $Purple;
+}
+
+.link-post-title {
+	font-size: 1.45em;
+	a {
+		color: $LinkColor;
+		text-decoration: none;
+		border-bottom:1px solid $LightGrey;
+	}
+}
+
+.post-title {
+	font-size: 2.1em;
+	a {
+		color: $DarkGrey;
+		text-decoration: none;
+	}
+}
+
+.post-body {
+  color: aqua;
+	line-height: 2.1em;
+	a {
+	color: $MiddleGrey;
+	border-bottom:1px solid $Purple;
+	}
+}
+
+.link-excerpt {
+	line-height: 1.9em;
+	padding-bottom: 2em;
+	a {
+	text-decoration: none;
+	color: $MiddleGrey;
+	border-bottom:1px solid $MiddleGrey;
+	}
+}
+
+.excerpt {
+	line-height: 1.9em;
+	padding-bottom: 2.5em;
+	a {
+	text-decoration: none;
+	color: $DarkGrey;
+	border-bottom:1px solid $LightGrey;
+	}
+}
+
+.date {
+	font-size: 1.05em;
+	color: $MiddleGrey;
+	padding-top: .5em;
+}
+
+.recent-date {
+	color: $MiddleGrey;
+	font-size: 1em;
+	float: right;
 }
