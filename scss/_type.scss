@@ -2,12 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 
 // Fonts
-@mixin sans {
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
-}
-@mixin iconfont {
-  font-family: "FontAwesome";
-}
+@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;}
+@mixin iconfont {font-family: "FontAwesome";}
 @font-face {
   font-family: "FontAwesome";
   src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
@@ -37,7 +33,7 @@ p {
 }
 
 hr {
-  margin-top: 4em;
+  margin-top: 2em;
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -112,8 +108,6 @@ nav {
 	}
 }
 
-
-
 .link-icon {
 	font-size: 1.2em;
 	padding-left: .5em;
@@ -160,7 +154,6 @@ nav {
 	a {
 		color: $LinkColor;
 		text-decoration: none;
-		border-bottom:1px solid $LightGrey;
 	}
 }
 
@@ -173,23 +166,34 @@ nav {
 	}
 }
 
-.post-body {
-  color: aqua;
-	line-height: 2.1em;
-	a {
-	color: $MiddleGrey;
-	border-bottom:1px solid $Purple;
-	}
-}
-
 .link-excerpt {
 	line-height: 1.9em;
 	padding-bottom: 2em;
 	a {
 	text-decoration: none;
-	color: $MiddleGrey;
-	border-bottom:1px solid $MiddleGrey;
+	color: $Purple;
 	}
+}
+
+.footnotes {
+  padding-bottom: 2em;
+  a {
+    color: $Purple;
+    font-weight: 800;
+    text-decoration: none;
+    border-bottom: 0 solid;
+  }
+}
+
+sup {
+  color: $Purple;
+  a {
+    color: $Purple;
+    font-weight: 700;
+    font-size: .9em;
+    text-decoration: none;
+    border-bottom: 0 solid;
+  }
 }
 
 .excerpt {
@@ -222,8 +226,7 @@ blockquote {
   margin-left: 1em;
   padding-left: 1.5em;
   border-left: 2px solid $Purple;
-} 
-
-blockquote p {
+  p {
   display: inline;
+  }
 }
