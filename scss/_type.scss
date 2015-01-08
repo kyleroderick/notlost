@@ -32,7 +32,7 @@ p {
 	a {
 	text-decoration: none;
 	color: $Purple;
-	border-bottom:1px solid $Purple;
+	border-bottom:2px solid $Purple;
 	}
 }
 
@@ -94,7 +94,7 @@ h4 {
 nav {
 	width: 100%;
 	font-size: .85em;
-	font-weight: 700;
+	font-weight: 800;
 	margin-bottom: 3.3em;
 	padding-top: 1em;
 	letter-spacing: .2em;
@@ -105,9 +105,14 @@ nav {
 	}	
 	a {
 		text-decoration: none;
-		color: $DarkGrey;
+		color: $MiddleGrey;
+	}
+	.selected {
+  	color: $Purple;
 	}
 }
+
+
 
 .link-icon {
 	font-size: 1.2em;
@@ -192,8 +197,8 @@ nav {
 	padding-bottom: 2.5em;
 	a {
 	text-decoration: none;
-	color: $DarkGrey;
-	border-bottom:1px solid $LightGrey;
+	color: $Purple;
+	border-bottom:2px solid $Purple;
 	}
 }
 
