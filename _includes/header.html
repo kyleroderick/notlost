@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Siteleaf, http://siteleaf.com" />
+  <title>{{site.title}} | {{title}}</title>
+  <link rel="canonical" href="{{permalink}}" />
+  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+  <link rel="stylesheet" href="../../css/global.css">
+
+  <script src="../../js/jquery.js"></script>
+  <script src="../../js/mediaelement-and-player.min.js"></script>
+  <link rel="stylesheet" href="../../css/mediaelementplayer.css" />
+
+<!-- Google Analytics -->
+{% include 'includes/analytics' %}
+
+<!-- Typekit Code -->
+{% include 'includes/typekit' %}
+
+
+<!-- Header and Nav -->
+<div class="contain">
+<nav role="navigation">
+  {% for page in site.pages %}
+    <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
+  {% endfor %}
+</nav>
+
+</div>

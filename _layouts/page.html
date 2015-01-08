@@ -1,0 +1,23 @@
+<div class="contain">
+
+{% capture 'content' %}
+    <section class="article">
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>{{ title }}</h1>
+            <p class="date">{{ date | date: "%b %d, %Y" }}</p>
+          </hgroup>
+        </header>
+
+        <p class="post-body">{{ body }}</p>
+
+        {% include 'includes/share' %}
+      </article>
+    </section>
+  </div>
+{% endcapture %}
+
+{% include 'layouts/default' %}
+
+</div>

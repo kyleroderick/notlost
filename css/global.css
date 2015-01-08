@@ -1,0 +1,278 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3");
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1; }
+body {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%; }
+
+p {
+  padding-bottom: 2em; }
+  p a {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 1px solid #3A478D; }
+
+h1 {
+  line-height: normal; }
+
+h3 {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2em;
+  line-height: normal;
+  font-weight: 400; }
+  h3 a {
+    text-decoration: none;
+    color: #777; }
+
+.contain {
+  max-width: 600px;
+  margin: 50px auto;
+  margin-top: 50px;
+  background: #fff; }
+  .contain img {
+    max-width: 100%; }
+
+.img {
+  float: left;
+  max-width: 80%; }
+
+a {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+body {
+  position: relative;
+  color: black;
+  line-height: 2em; }
+
+nav {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 3.3em;
+  padding-top: 1em; }
+  nav li {
+    display: inline;
+    padding-right: 2em; }
+  nav a {
+    text-decoration: none;
+    color: #444; }
+
+.permalink-icon {
+  font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.4em;
+  padding-left: .4em; }
+  .permalink-icon a {
+    text-decoration: none;
+    color: #888; }
+
+.header {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-size: 1.2em; }
+  .header a {
+    text-decoration: none;
+    color: #444; }
+
+.super-quote {
+  padding-bottom: 1.5em; }
+  .super-quote h1 {
+    font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #3A478D; }
+
+.list-title {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-size: 1.5em; }
+
+.page {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-size: 2em;
+  color: #3A478D; }
+
+.link-post-title {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  font-size: 1.45em; }
+  .link-post-title a {
+    color: #777;
+    text-decoration: none;
+    border-bottom: 1px solid #DEDEDE; }
+
+.post-title {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  font-size: 2.1em; }
+  .post-title a {
+    color: #444;
+    text-decoration: none; }
+
+.post-body {
+  line-height: 2.1em; }
+  .post-body a {
+    color: #888;
+    border-bottom: 1px solid #3A478D; }
+
+.link-excerpt {
+  line-height: 1.9em;
+  padding-bottom: 2em; }
+  .link-excerpt a {
+    text-decoration: none;
+    color: #888;
+    border-bottom: 1px solid #888; }
+
+.excerpt {
+  line-height: 1.9em;
+  padding-bottom: 2.5em; }
+  .excerpt a {
+    text-decoration: none;
+    color: #444;
+    border-bottom: 1px solid #DEDEDE; }
+
+.date {
+  font-size: 1.05em;
+  color: #888;
+  padding-top: .5em; }
+
+.recent-date {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #888;
+  font-size: 1em;
+  float: right; }
+
+.recent-posts {
+  display: block;
+  padding-bottom: 1.3em; }
+
+.recent-title {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5em; }
+  .recent-title a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px #888 solid; }
+
+.recent-permalink-icon {
+  font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2em;
+  padding-left: .3em; }
+  .recent-permalink-icon a {
+    text-decoration: none;
+    color: #888; }
+
+.blog-title {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: normal;
+  color: #3A478D;
+  text-align: center; }
+
+.blog-body {
+  line-height: 2.1em; }
+  .blog-body a {
+    color: #888;
+    border-bottom: 1px solid #3A478D; }
+
+.blog-link {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  line-height: 0%; }
+  .blog-link a {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: normal;
+    color: #888;
+    border-bottom: 1px solid #888; }
+
+.file-link {
+  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  line-height: 0%; }
+  .file-link a {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: normal;
+    color: #888;
+    border-bottom: 1px solid #888; }
+
+blockquote {
+  color: #888;
+  margin-bottom: 1.5em;
+  margin-left: -1.5em;
+  padding-left: 1.5em;
+  border-left: 2px solid #3A478D; }
+
+blockquote p {
+  display: inline; }
+
+small {
+  padding: 0 auto; }
+
+.footer {
+  padding-top: 3em;
+  text-align: center; }
+
+@media print {
+  body {
+    font-size: 12px; }
+
+  header {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+
+  .downloads, .byline, footer {
+    display: none; }
+
+  header hgroup {
+    border: 0;
+    padding: 0;
+    margin: 0; }
+
+  header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    border: 0; }
+
+  header h2 {
+    border: 0;
+    margin: 0; }
+
+  .downloads, footer {
+    display: none; }
+
+  section {
+    border: 0; } }
