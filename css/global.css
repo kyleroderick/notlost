@@ -110,9 +110,6 @@ nav {
   padding-top: 0;
   color: #3A478D; }
 
-.article {
-  padding-bottom: 3em; }
-
 .link-post-title {
   font-size: 1.45em;
   font-weight: 600; }
@@ -121,26 +118,25 @@ nav {
     text-decoration: none; }
 
 .post-title {
-  font-size: 2.1em;
+  font-size: 2.5em;
   font-weight: 800; }
   .post-title a {
     color: #3A478D;
-    text-decoration: none; }
+    text-decoration: none;
+    letter-spacing: .02em; }
 
 .link-excerpt {
   line-height: 1.9em;
-  padding-bottom: 2em; }
+  padding-bottom: 5em; }
   .link-excerpt a {
     text-decoration: none;
     color: #3A478D; }
 
-.footnotes {
-  padding-bottom: 2em; }
-  .footnotes a {
-    color: #3A478D;
-    font-weight: 800;
-    text-decoration: none;
-    border-bottom: 0 solid; }
+.footnotes a {
+  color: #3A478D;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 0 solid; }
 
 sup {
   color: #3A478D; }
@@ -174,7 +170,7 @@ sup {
 blockquote {
   color: #888;
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-left: 0;
   padding-left: 1.5em;
   border-left: 2px solid #3A478D; }
   blockquote p {
@@ -191,16 +187,6 @@ blockquote {
 .img {
   float: left;
   max-width: 80%; }
-
-.blog-link {
-  text-align: center;
-  line-height: 0%; }
-  .blog-link a {
-    font-weight: 400;
-    font-size: 1.1em;
-    line-height: normal;
-    color: #888;
-    border-bottom: 1px solid #888; }
 
 .file-link {
   text-align: center;

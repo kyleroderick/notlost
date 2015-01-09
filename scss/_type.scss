@@ -144,9 +144,7 @@ nav {
 	color: $Purple;
 }
 
-.article {
-  padding-bottom: 3em;
-}
+
 
 .link-post-title {
 	font-size: 1.45em;
@@ -158,17 +156,18 @@ nav {
 }
 
 .post-title {
-	font-size: 2.1em;
+	font-size: 2.5em;
 	font-weight: 800;
 	a {
 		color: $Purple;
 		text-decoration: none;
+		letter-spacing: .02em;
 	}
 }
 
 .link-excerpt {
 	line-height: 1.9em;
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 	a {
 	text-decoration: none;
 	color: $Purple;
@@ -176,10 +175,9 @@ nav {
 }
 
 .footnotes {
-  padding-bottom: 2em;
   a {
     color: $Purple;
-    font-weight: 800;
+    font-weight: bold;
     text-decoration: none;
     border-bottom: 0 solid;
   }
@@ -223,7 +221,7 @@ sup {
 blockquote {
 	color: $MiddleGrey;
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-left: 0;
   padding-left: 1.5em;
   border-left: 2px solid $Purple;
   p {
