@@ -70,7 +70,7 @@ nav {
   font-weight: 800;
   margin-bottom: 3.3em;
   padding-top: 1em;
-  letter-spacing: .2em;
+  letter-spacing: .15em;
   text-transform: uppercase; }
   nav li {
     display: inline;
@@ -175,6 +175,9 @@ blockquote {
   border-left: 2px solid #3A478D; }
   blockquote p {
     display: inline; }
+
+.footer {
+  font-size: small; }
 
 .contain {
   max-width: 600px;

@@ -93,7 +93,7 @@ nav {
 	font-weight: 800;
 	margin-bottom: 3.3em;
 	padding-top: 1em;
-	letter-spacing: .2em;
+	letter-spacing: .15em;
 	text-transform: uppercase;
 	li {
 		display:inline;
@@ -227,4 +227,8 @@ blockquote {
   p {
   display: inline;
   }
+}
+
+.footer {
+  font-size: small;
 }
