@@ -1,9 +1,13 @@
 <div class="contain">
 
+
 {% if body %}
 	<article>
     <h2 class="page">{{title}}</h2>
     <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time>
+    <audio class="audio-player" id="player" src="{{meta['Audio URL']}}" type="audio/mp3" controls="controls">
+    Your browser does not support the audio element.
+    </audio>
     <p class="post-body">{{body}}<p>
 	</article>
 	{% endif %}
