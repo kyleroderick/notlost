@@ -2,12 +2,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 
 // Fonts
-@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;}
-@mixin iconfont {font-family: "FontAwesome";}
+@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+@mixin iconfont {font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+}
 @font-face {
   font-family: "FontAwesome";
   src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
   src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  -webkit-font-smoothing: antialiased;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -27,8 +32,8 @@ p {
   line-height: 1.8em;
 	a {
 	text-decoration: none;
-	color: $Purple;
-	border-bottom:2px solid $Purple;
+	color: $Blue;
+	border-bottom:2px solid $Blue;
 	}
 }
 
@@ -52,7 +57,7 @@ h2 {
 h3 {
 	font-size: 2em;
 	line-height: normal;
-	font-weight: 700;
+	font-weight: 600;
 	a {
 		text-decoration: none;
 		color: $LinkColor;
@@ -60,12 +65,12 @@ h3 {
 }
 
 h4 {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.8em;
   a {
     text-decoration: none;
     color: $DarkGrey;
-    border-bottom:0px solid $Purple;
+    border-bottom:0px solid $Blue;
     }
 }
 
@@ -80,7 +85,7 @@ h4 {
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
-  border-left: 4px solid $Purple;
+  border-left: 4px solid $Blue;
   a {
     text-decoration: none;
     color: $DarkGrey;
@@ -104,7 +109,7 @@ nav {
 		color: $MiddleGrey;
 	}
 	.selected {
-  	color: $Purple;
+  	color: $Blue;
 	}
 }
 
@@ -114,7 +119,7 @@ nav {
 	color: $MiddleGrey;
 	a{
 		text-decoration: none;
-		color: $Purple;
+		color: $Blue;
 	}
 }
 
@@ -124,7 +129,7 @@ nav {
 	margin-top: -1em;
 	a{
 		text-decoration: none;
-		color: $Purple;
+		color: $Blue;
 	}
 }
 
@@ -141,14 +146,14 @@ nav {
 	font-weight: 800;
 	font-size: 2.4em;
 	padding-top: 0;
-	color: $Purple;
+	color: $Blue;
 }
 
 
 
 .link-post-title {
 	font-size: 1.45em;
-	font-weight: 600;
+	font-weight: 700;
 	a {
 		color: $LinkColor;
 		text-decoration: none;
@@ -159,7 +164,7 @@ nav {
 	font-size: 2.5em;
 	font-weight: 800;
 	a {
-		color: $Purple;
+		color: $Blue;
 		text-decoration: none;
 		letter-spacing: .02em;
 	}
@@ -170,13 +175,13 @@ nav {
 	padding-bottom: 5em;
 	a {
 	text-decoration: none;
-	color: $Purple;
+	color: $Blue;
 	}
 }
 
 .footnotes {
   a {
-    color: $Purple;
+    color: $Blue;
     font-weight: bold;
     text-decoration: none;
     border-bottom: 0 solid;
@@ -184,9 +189,9 @@ nav {
 }
 
 sup {
-  color: $Purple;
+  color: $Blue;
   a {
-    color: $Purple;
+    color: $Blue;
     font-weight: 700;
     font-size: .9em;
     text-decoration: none;
@@ -199,8 +204,8 @@ sup {
 	padding-bottom: 2.5em;
 	a {
 	text-decoration: none;
-	color: $Purple;
-	border-bottom:2px solid $Purple;
+	color: $Blue;
+	border-bottom:2px solid $Blue;
 	}
 }
 
@@ -223,7 +228,7 @@ blockquote {
   margin-bottom: 1em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid $Purple;
+  border-left: 2px solid $Blue;
   p {
   display: inline;
   }

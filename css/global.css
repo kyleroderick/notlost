@@ -3,22 +3,24 @@
   font-family: "FontAwesome";
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3");
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  -webkit-font-smoothing: antialiased;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
   line-height: 1; }
 body {
   font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-size: 17px;
   font-weight: 400;
-  color: #444; }
+  color: #111; }
 
 p {
   line-height: 1.8em; }
   p a {
     text-decoration: none;
-    color: #3A478D;
-    border-bottom: 2px solid #3A478D; }
+    color: #188CFB;
+    border-bottom: 2px solid #188CFB; }
 
 hr {
   margin-top: 2em;
@@ -37,18 +39,18 @@ h2 {
 h3 {
   font-size: 2em;
   line-height: normal;
-  font-weight: 700; }
+  font-weight: 600; }
   h3 a {
     text-decoration: none;
     color: #777; }
 
 h4 {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.8em; }
   h4 a {
     text-decoration: none;
-    color: #444;
-    border-bottom: 0px solid #3A478D; }
+    color: #111;
+    border-bottom: 0px solid #188CFB; }
 
 .related-header {
   font-size: 1.3em;
@@ -59,10 +61,10 @@ h4 {
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
-  border-left: 4px solid #3A478D; }
+  border-left: 4px solid #188CFB; }
   .related-list a {
     text-decoration: none;
-    color: #444; }
+    color: #111; }
 
 nav {
   width: 100%;
@@ -79,7 +81,7 @@ nav {
     text-decoration: none;
     color: #888; }
   nav .selected {
-    color: #3A478D; }
+    color: #188CFB; }
 
 .link-icon {
   font-size: 1.2em;
@@ -87,7 +89,7 @@ nav {
   color: #888; }
   .link-icon a {
     text-decoration: none;
-    color: #3A478D; }
+    color: #188CFB; }
 
 .permalink-icon {
   font-size: inherit;
@@ -95,24 +97,24 @@ nav {
   margin-top: -1em; }
   .permalink-icon a {
     text-decoration: none;
-    color: #3A478D; }
+    color: #188CFB; }
 
 .header {
   font-weight: 300;
   font-size: 1.2em; }
   .header a {
     text-decoration: none;
-    color: #444; }
+    color: #111; }
 
 .page {
   font-weight: 800;
   font-size: 2.4em;
   padding-top: 0;
-  color: #3A478D; }
+  color: #188CFB; }
 
 .link-post-title {
   font-size: 1.45em;
-  font-weight: 600; }
+  font-weight: 700; }
   .link-post-title a {
     color: #777;
     text-decoration: none; }
@@ -121,7 +123,7 @@ nav {
   font-size: 2.5em;
   font-weight: 800; }
   .post-title a {
-    color: #3A478D;
+    color: #188CFB;
     text-decoration: none;
     letter-spacing: .02em; }
 
@@ -130,18 +132,18 @@ nav {
   padding-bottom: 5em; }
   .link-excerpt a {
     text-decoration: none;
-    color: #3A478D; }
+    color: #188CFB; }
 
 .footnotes a {
-  color: #3A478D;
+  color: #188CFB;
   font-weight: bold;
   text-decoration: none;
   border-bottom: 0 solid; }
 
 sup {
-  color: #3A478D; }
+  color: #188CFB; }
   sup a {
-    color: #3A478D;
+    color: #188CFB;
     font-weight: 700;
     font-size: .9em;
     text-decoration: none;
@@ -152,8 +154,8 @@ sup {
   padding-bottom: 2.5em; }
   .excerpt a {
     text-decoration: none;
-    color: #3A478D;
-    border-bottom: 2px solid #3A478D; }
+    color: #188CFB;
+    border-bottom: 2px solid #188CFB; }
 
 .date {
   font-size: .9em;
@@ -172,7 +174,7 @@ blockquote {
   margin-bottom: 1em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid #3A478D; }
+  border-left: 2px solid #188CFB; }
   blockquote p {
     display: inline; }
 

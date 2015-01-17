@@ -9,7 +9,7 @@
     {% for asset in assets %}
       {% if asset.type == 'audio' %}
       <audio><source src="{{asset.url}}" type="{{asset.content_type}}" controls="controls" style="width:100%; height:100%;"></audio>
-      <p class="download-button">Download: <a href="{{asset.url}}">{{asset.filename}} ({{asset.filesize}})</a></p>
+      <p class="download-button">Download: <a href="{{asset.url}}"><b>{{asset.filename}} ({{asset.filesize}})</b></a></p>
       <hr>
       {% endif %}
     {% endfor %}
@@ -18,7 +18,7 @@
     <audio class="audio-player" id="player" src="{{meta['Audio URL']}}" type="audio/mp3" controls="controls" style="width:100%; height:100%;">
     Your browser does not support the audio element.
     </audio>
-    <p class="download-button">Download: <a href="{{{meta['Audio URL']}}">MP3</a></h4>
+    <p class="download-button">Download: <a href="{{{meta['Audio URL']}}"><b>MP3</b></a></h4>
     <hr>
     {% endif %}
     <p class="post-body">{{body}}<p>
