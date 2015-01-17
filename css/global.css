@@ -3,10 +3,10 @@
   font-family: "FontAwesome";
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3");
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
-  -webkit-font-smoothing: antialiased;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
+  color: red;
   line-height: 1; }
 body {
   font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
@@ -14,6 +14,15 @@ body {
   font-size: 17px;
   font-weight: 400;
   color: #111; }
+  body a {
+    outline: none; }
+
+article body a {
+  text-decoration: none;
+  color: #188CFB;
+  border-bottom: 2px solid #188CFB; }
+article body ul li {
+  padding-top: .5em; }
 
 p {
   line-height: 1.8em; }
@@ -32,9 +41,15 @@ hr {
 h1 {
   font-weight: 700;
   line-height: normal; }
+  h1 a {
+    text-decoration: none;
+    border-bottom: none; }
 
 h2 {
   padding-top: .5em; }
+  h2 a {
+    text-decoration: none;
+    border-bottom: none; }
 
 h3 {
   font-size: 2em;
@@ -42,6 +57,7 @@ h3 {
   font-weight: 600; }
   h3 a {
     text-decoration: none;
+    border-bottom: none;
     color: #777; }
 
 h4 {
@@ -50,7 +66,7 @@ h4 {
   h4 a {
     text-decoration: none;
     color: #111;
-    border-bottom: 0px solid #188CFB; }
+    border-bottom: none; }
 
 .related-header {
   font-size: 1.3em;
@@ -79,7 +95,8 @@ nav {
     padding-right: 2em; }
   nav a {
     text-decoration: none;
-    color: #888; }
+    color: #888;
+    border-bottom: none; }
   nav .selected {
     color: #188CFB; }
 
@@ -89,7 +106,8 @@ nav {
   color: #888; }
   .link-icon a {
     text-decoration: none;
-    color: #188CFB; }
+    color: #188CFB;
+    border-bottom: none; }
 
 .permalink-icon {
   font-size: inherit;
@@ -97,6 +115,7 @@ nav {
   margin-top: -1em; }
   .permalink-icon a {
     text-decoration: none;
+    border-bottom: none;
     color: #188CFB; }
 
 .header {
@@ -104,6 +123,7 @@ nav {
   font-size: 1.2em; }
   .header a {
     text-decoration: none;
+    border-bottom: none;
     color: #111; }
 
 .page {
@@ -111,13 +131,17 @@ nav {
   font-size: 2.4em;
   padding-top: 0;
   color: #188CFB; }
+  .page a {
+    text-decoration: none;
+    border-bottom: none; }
 
 .link-post-title {
   font-size: 1.45em;
   font-weight: 700; }
   .link-post-title a {
     color: #777;
-    text-decoration: none; }
+    text-decoration: none;
+    border-bottom: none; }
 
 .post-title {
   font-size: 2.5em;
@@ -125,7 +149,8 @@ nav {
   .post-title a {
     color: #188CFB;
     text-decoration: none;
-    letter-spacing: .02em; }
+    letter-spacing: .02em;
+    border-bottom: none; }
 
 .link-excerpt {
   line-height: 1.9em;
@@ -138,7 +163,7 @@ nav {
   color: #188CFB;
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 0 solid; }
+  border-bottom: none; }
 
 sup {
   color: #188CFB; }
@@ -203,7 +228,7 @@ div.audio-player {
   color: #ececec; }
 
 .contain {
-  max-width: 600px;
+  max-width: 450pt;
   margin: 50px auto;
   margin-top: 50px;
   background: #fff; }
