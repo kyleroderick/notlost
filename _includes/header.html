@@ -7,13 +7,13 @@
   <link rel="canonical" href="{{permalink}}" />
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
   <link rel="stylesheet" href="../../css/global.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
   
   <script src="../../js/timeJump.js"></script>
   
   <script src="../../build/jquery.js"></script>
   <script src="../../build/mediaelement-and-player.min.js"></script>
-  <link rel="stylesheet" href="../../build/mediaelementplayer.css" />
+  <link rel="stylesheet" href="../../build/mediaelementplayer.css"/>
   <script>
     $(document).ready(function() { $('video, audio').mediaelementplayer(); });
   </script>  
@@ -29,11 +29,16 @@
 
 <!-- Header and Nav -->
 <div class="contain">
+<div class="logo"><a href="{{site.permalink}}"><img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="globe"></div>
+<div class="logo">NOT LOST</a></div>
+
 <nav role="navigation">
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
+  <a href="http://feedpress.me/notlost">RSS <i class="icon-rss"></i></a>
 </nav>
-<i class="icon-rss"></i>Exploring the Internet.
+<div class="feed">
+<fee
 
 </div>
