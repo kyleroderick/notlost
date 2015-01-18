@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="Siteleaf, http://siteleaf.com" />
-  <title>{{site.title}} | {{title}}</title>
+  <title>{{site.title}}{{meta['Description']}} | {{title}}</title>
   <link rel="canonical" href="{{permalink}}" />
   <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
   <link rel="stylesheet" href="../../css/global.css">
@@ -36,7 +36,7 @@
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
-  <a href="{{site.feed_url}}">RSS <i class="icon-rss"></i></a>
+  <a href="{{site.meta['FeedPress']}}">RSS <i class="icon-rss"></i></a>
 </nav>
 <div class="feed">
 <fee
