@@ -36,7 +36,7 @@
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
-  <a href="http://feedpress.me/notlost">RSS <i class="icon-rss"></i></a>
+  <a href="{{site.feed_url}}">RSS <i class="icon-rss"></i></a>
 </nav>
 <div class="feed">
 <fee
