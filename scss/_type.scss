@@ -22,16 +22,17 @@
 }
 
 body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
   @include sans;
-  margin-left: 5%;
-  margin-right: 5%;
   font-size: 17px;
 	font-weight: 400;
 	color: $DarkGrey;
 	a {
     outline : none;
 	}
-
 }
 
 article body{

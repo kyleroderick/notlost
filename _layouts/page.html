@@ -1,6 +1,7 @@
-<div class="contain">
-
-{% capture 'content' %}
+<div id="contain">
+  
+  {% capture 'content' %}
+  
     <section class="article">
       <article class="wrap post">
         <header class="post-header">
@@ -23,9 +24,8 @@
         {% include 'includes/share' %}
       </article>
     </section>
-  </div>
-{% endcapture %}
-
-{% include 'layouts/default' %}
-
 </div>
+
+  {% endcapture %}
+
+  {% include 'layouts/default' %}

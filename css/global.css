@@ -9,10 +9,12 @@
   color: red;
   line-height: 1; }
 body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 4rem;
+  min-height: 100%;
   font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  margin-left: 5%;
-  margin-right: 5%;
   font-size: 17px;
   font-weight: 400;
   color: #111; }
@@ -231,11 +233,13 @@ div.audio-player {
   font-size: 1em;
   color: #ececec; }
 
-.contain {
+html {
+  height: 100%; }
+
+#contain {
   max-width: 450pt;
-  margin: 50px auto;
-  background: #fff; }
-  .contain img {
+  margin: 50px auto; }
+  #contain img {
     max-width: 100%; }
 
 .logo {
@@ -265,8 +269,13 @@ div.audio-player {
 small {
   padding: 0 auto; }
 
-.footer {
-  padding-top: 3em;
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
   text-align: center; }
 
 @media print {
