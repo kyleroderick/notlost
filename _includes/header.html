@@ -1,43 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="Siteleaf, http://siteleaf.com" />
-  <title>{{site.title}}{{meta['Description']}} | {{title}}</title>
-  <link rel="canonical" href="{{permalink}}" />
-  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-  <link rel="stylesheet" href="../../css/global.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
-  
-  <script src="../../js/timeJump.js"></script>
-  
-  <script src="../../build/jquery.js"></script>
-  <script src="../../build/mediaelement-and-player.min.js"></script>
-  <link rel="stylesheet" href="../../build/mediaelementplayer.css"/>
-  <script>
-    $(document).ready(function() { $('video, audio').mediaelementplayer(); });
-  </script>  
-  
-  
-
-<!-- Google Analytics -->
-{% include 'includes/analytics' %}
-
-<!-- Typekit Code -->
-{% include 'includes/typekit' %}
-
-
 <!-- Header and Nav -->
 <div id="contain">
-<div class="logo"><a href="{{site.permalink}}"><img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="globe"></div>
-<div class="logo">NOT LOST</a></div>
 
 <nav role="navigation">
+      <div id="logo"><a href="{{site.permalink}}"><img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="Not Lost"></div>
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
+  
   <a href="{{site.meta['FeedPress']}}">RSS <i class="icon-rss"></i></a>
 </nav>
-<div class="feed">
 
+<div class="feed">
 </div>
