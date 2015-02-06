@@ -86,25 +86,14 @@ h4 {
     text-decoration: none;
     color: #111; }
 
-nav {
-  font-size: .85em;
-  text-align: center;
-  width: 200pt;
-  font-weight: 800;
+.byline {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1.3em;
-  letter-spacing: .15em;
-  text-transform: uppercase; }
-  nav li {
-    display: inline;
-    padding-right: 2em; }
-  nav a {
-    text-decoration: none;
-    color: #888;
-    border-bottom: none; }
-  nav .selected {
-    color: #188CFB; }
+  font-size: .7em;
+  color: #LightGrey;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: normal; }
 
 .link-icon {
   font-size: 1.2em;
@@ -191,7 +180,7 @@ sup {
 .date {
   font-size: .9em;
   font-weight: 600;
-  color: #888;
+  color: #BCBCBC;
   padding-top: .5em;
   letter-spacing: .02em; }
 
@@ -236,23 +225,60 @@ div.audio-player {
 html {
   height: 100%; }
 
+#nav-contain {
+  max-width: 700pt;
+  margin-left: 10pt; }
+
 #contain {
   max-width: 450pt;
   margin: 50px auto; }
   #contain img {
     max-width: 100%; }
 
-#logo {
-  text-align: center;
+header {
+  height: 50pt;
+  padding-top: 20pt;
+  vertical-align: middle;
+  margin: 10pt auto 10pt auto;
+  border-bottom: 1pt solid #BCBCBC;
+  width: 700pt; }
+
+.logo {
+  position: fixed;
   width: 20pt;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em; }
-  #logo a {
+  padding-top: 4pt;
+  float: left;
+  vertical-align: middle; }
+  .logo img {
+    width: 20pt; }
+
+nav {
+  font-size: .75em;
+  width: 700pt;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block; }
+  nav li {
+    min-width: 30pt;
+    float: left;
+    display: inline;
+    padding-right: 2em; }
+  nav ul {
+    vertical-align: center;
+    float: right; }
+  nav a {
     text-decoration: none;
-    font-weight: 900;
-    color: #188CFB;
-    letter-spacing: .3em; }
+    color: #888;
+    border-bottom: none; }
+  nav .selected {
+    color: #188CFB; }
+
+nav a {
+  color: black;
+  text-decoration: none; }
 
 .img {
   float: left;

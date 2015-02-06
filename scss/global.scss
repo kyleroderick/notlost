@@ -10,6 +10,10 @@ html {
   height: 100%;
 }
 
+#nav-contain {
+  max-width: 700pt;
+  margin-left: 10pt;
+}
 
 
 #contain {
@@ -20,19 +24,61 @@ html {
   }
 }
 
-#logo {
-    text-align: center;
+
+header {
+  height: 50pt;
+  padding-top: 20pt;
+  vertical-align: middle;
+  margin: 10pt auto 10pt auto;
+  border-bottom: 1pt solid $LightGrey;
+  width: 700pt;
+}
+
+.logo {
+  position: fixed;
   width: 20pt;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 1em;
-  a{
-  text-decoration: none;
-  font-weight: 900;
-  color: $Blue;
-  letter-spacing: .3em;
+  padding-top: 4pt;
+  float: left;
+  vertical-align: middle;
+  img {
+    width: 20pt;
   }
 }
+
+nav {
+  font-size: .75em;
+  width: 700pt;
+	font-weight: 800;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+	li {
+  	min-width: 30pt;
+  	float: left;
+		display:inline;
+		padding-right: 2em;
+	}
+	ul {
+  	vertical-align: center;
+  	float: right;
+	}
+	a {
+		text-decoration: none;
+		color: $MiddleGrey;
+		border-bottom:none;
+	}
+	.selected {
+  	color: $Blue;
+	}
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 
 
 .img {

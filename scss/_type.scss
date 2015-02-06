@@ -122,29 +122,17 @@ h4 {
   }
 }
 
-nav {
-  font-size: .85em;
-  text-align: center;
-  width: 200pt;
-	font-weight: 800;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 1.3em;
-	letter-spacing: .15em;
-	text-transform: uppercase;
-	li {
-		display:inline;
-		padding-right: 2em;
-	}	
-	a {
-		text-decoration: none;
-		color: $MiddleGrey;
-		border-bottom:none;
-	}
-	.selected {
-  	color: $Blue;
-	}
+.byline {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: .7em;
+  color: #LightGrey;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: normal;
 }
+
+
 
 .link-icon {
 	font-size: 1.2em;
@@ -254,7 +242,7 @@ sup {
 .date {
 	font-size: .9em;
 	font-weight: 600;
-	color: $MiddleGrey;
+	color: $LightGrey;
 	padding-top: .5em;
 	letter-spacing: .02em;
 }
@@ -278,8 +266,8 @@ blockquote {
 
 .download-button{
   font-size: .8em;
-  
 }
+
 
 .footer {
   font-size: small;
