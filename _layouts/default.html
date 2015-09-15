@@ -1,10 +1,18 @@
-<div id="contain">
-
-
 {% if body %}
+	
+<div id="contain">
+	
 	<article>
     <h2 class="page">{{title}}</h2>
-    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time>
+    <div class="date"><time datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">{{ date | date: "%B %e, %Y" }}</time></div>
+    
+  {% if post.taxonomy.topics %}  
+      <ul class="list_horizontal">
+  {% for tag in post.taxonomy.topics | limit: 5 %}
+    <li><a class="sup" href="{{tag.url}}">{{tag.value}}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}  
     
     {% for asset in assets %}
       {% if asset.type == 'audio' %}
@@ -21,9 +29,12 @@
     <p class="download-button">Download: <a href="{{{meta['Audio URL']}}"><b>MP3</b></a></h4>
     <hr>
     {% endif %}
-    <p class="post-body">{{body}}<p>
+    
+    {{body}}
+    
 	</article>
-	{% endif %}
+	
+{% endif %}
   
 	{% for post in posts %}
   <article>
@@ -33,4 +44,3 @@
   </article>
   {% endfor %}
 
-</div>

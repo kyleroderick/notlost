@@ -1,10 +1,12 @@
-// Imports
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
-
 // Fonts
 @mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
+@mixin logo {font-family: "museo-sans-rounded", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
 @mixin iconfont {font-family: "FontAwesome";
   -webkit-font-smoothing: antialiased;
 }
@@ -35,31 +37,79 @@ body {
 	}
 }
 
-article body{
-  a {
+article {
+  p a {
 	text-decoration: none;
-	color: $Blue;
-	border-bottom:2px solid $Blue;
+	color: $LinkColor;
 	}
-	ul li {
-  	padding-top: .5em;
-	}
+
+ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $DarkGrey;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+
 }
 
 // Typography
 
 
 p {
-  line-height: 1.8em;
+  line-height: 1.7em;
+  padding-bottom: .7em;
+  padding-top: .7em;
 	a {
 	text-decoration: none;
-	color: $Blue;
-	border-bottom:2px solid $Blue;
+	color: $LinkColor;
 	}
+	ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $DarkGrey;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
 }
 
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+}
+
+
+
 hr {
-  margin-top: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -67,26 +117,46 @@ hr {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 800;
 	line-height: normal;
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: .5em;
 	a {
 		text-decoration: none;
 		border-bottom: none;
 		}
 }
 
+
 h2 {
-  padding-top: .5em;
+  font-weight: 700;
+	line-height: normal;
+  font-size: 1.4em;
+  color: $DarkGrey;
+  	a {
+		text-decoration: none;
+		border-bottom: none;
+		  color: $DarkGrey;
+		}
+}
+
+h2.page {
+  color: $DarkGrey;
   	a {
 		text-decoration: none;
 		border-bottom: none;
 		}
 }
 
+
+
 h3 {
-	font-size: 2em;
+	font-size: 1em;
 	line-height: normal;
-	font-weight: 600;
+	font-weight: 700;
+	margin-bottom: 1em;
+	margin-top: .5em;
 	a {
 		text-decoration: none;
 		border-bottom: none;
@@ -95,11 +165,45 @@ h3 {
 }
 
 h4 {
-  font-weight: 600;
-  line-height: 1.8em;
+  font-weight: 800;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: $MiddleGrey;
+  margin-top: 1.5em;
+  margin-bottom: .8em;
   a {
     text-decoration: none;
     color: $DarkGrey;
+    border-bottom: none;
+    }
+}
+
+h5 {
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  margin-bottom: 1em;
+  color: $MiddleGrey;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
+    border-bottom: none;
+    }
+}
+
+h6 {
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  color: $MiddleGrey;
+  a {
+    text-decoration: none;
+    color: $LinkColor;
     border-bottom: none;
     }
 }
@@ -111,11 +215,11 @@ h4 {
 
 .related-list {
   padding: 0;
-  
+
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
-  border-left: 4px solid $Blue;
+  border-left: 4px solid $DarkGrey;
   a {
     text-decoration: none;
     color: $DarkGrey;
@@ -123,10 +227,8 @@ h4 {
 }
 
 .byline {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: .7em;
-  color: #LightGrey;
+  font-size: 1.1em;
+  color: $MiddleGrey;
   text-transform: none;
   font-weight: 600;
   letter-spacing: normal;
@@ -137,10 +239,10 @@ h4 {
 .link-icon {
 	font-size: 1.2em;
 	padding-left: .5em;
-	color: $MiddleGrey;
+	color: $LinkColor;
 	a{
 		text-decoration: none;
-		color: $Blue;
+		color: $LinkColor;
 		border-bottom: none;
 	}
 }
@@ -152,7 +254,7 @@ h4 {
 	a {
 		text-decoration: none;
 		border-bottom: none;
-		color: $Blue;
+		color: $Green;
   }
 }
 
@@ -168,13 +270,12 @@ h4 {
 
 .page {
 	font-weight: 800;
-	font-size: 2.4em;
-	padding-top: 0;
-	color: $Blue;
+	font-size: 2.2em;
+	color: $Green;
 	a {
 		text-decoration: none;
 		border-bottom: none;
-  }	
+  }
 }
 
 
@@ -182,6 +283,7 @@ h4 {
 .link-post-title {
 	font-size: 1.45em;
 	font-weight: 700;
+	padding-bottom: .3em;
 	a {
 		color: $LinkColor;
 		text-decoration: none;
@@ -190,10 +292,11 @@ h4 {
 }
 
 .post-title {
-	font-size: 2.5em;
+	font-size: 2.2em;
+	margin-bottom: 1em;
 	font-weight: 800;
 	a {
-		color: $Blue;
+		color: $DarkGrey;
 		text-decoration: none;
 		letter-spacing: .02em;
 		border-bottom: none;
@@ -202,16 +305,40 @@ h4 {
 
 .link-excerpt {
 	line-height: 1.9em;
-	padding-bottom: 5em;
+	padding-bottom: 6em;
 	a {
 	text-decoration: none;
-	color: $Blue;
+	color: $Green;
+	border-bottom: none;
 	}
+	ul {
+  color: $DarkGrey;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  list-style: disc;
+  margin-left: 2em;
+  a {
+    text-decoration: none;
+	  color: $DarkGrey;
+  }
+  code {
+    font-family: monospace;
+    font-weight: 700;
+    color: Black;
+  }
+}
+
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
 }
 
 .footnotes {
   a {
-    color: $Blue;
+    color: $LinkColor;
     font-weight: bold;
     text-decoration: none;
     border-bottom: none;
@@ -219,31 +346,59 @@ h4 {
 }
 
 sup {
-  color: $Blue;
+  color: $LinkColor;
   a {
-    color: $Blue;
+    color: $LinkColor;
+    background: $LightGrey;
+    padding: 2pt 6pt 2pt 6pt;
+    margin-left: 2pt;
+    margin-right: 1pt;
     font-weight: 700;
     font-size: .9em;
     text-decoration: none;
-    border-bottom: 0 solid;
+    border-radius: 4pt;
+  }
+}
+
+.list_horizontal {
+  color: $LinkColor;
+  text-transform: uppercase;
+  list-style: none;
+  margin-left: 0 !important;
+  margin-top: 0;
+  margin-bottom: 2em;
+  font-size: .9em;
+  a {
+    color: $LinkColor;
+    background: $LightRed;
+    padding: 2pt 6pt 2pt 6pt;
+    font-weight: 800;
+  letter-spacing: .03em;
+    font-size: .8em;
+    text-decoration: none;
+    border-radius: 4pt;
+  }
+  li {
+    display:inline;
+    padding-right: .3em;
   }
 }
 
 .excerpt {
 	line-height: 1.9em;
-	padding-bottom: 2.5em;
+	padding-bottom: 6em;
 	a {
 	text-decoration: none;
-	color: $Blue;
-	border-bottom:2px solid $Blue;
+	color: $Green;
 	}
 }
 
 .date {
 	font-size: .9em;
 	font-weight: 600;
-	color: $LightGrey;
-	padding-top: .5em;
+	color: $MiddleGrey;
+	margin-top: 1em;
+	margin-bottom: 1.4em;
 	letter-spacing: .02em;
 }
 
@@ -255,10 +410,11 @@ sup {
 
 blockquote {
 	color: $MiddleGrey;
-  margin-bottom: 1em;
+	margin-top: .8em;
+  margin-bottom: .8em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid $Blue;
+  border-left: 2px solid $Green;
   p {
   display: inline;
   }
@@ -266,9 +422,13 @@ blockquote {
 
 .download-button{
   font-size: .8em;
+  padding-top: .6em;
 }
 
 
-.footer {
-  font-size: small;
+footer {
+  h1 {
+    font-size: 1.4em;
+    color: red;
+  }
 }

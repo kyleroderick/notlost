@@ -1,53 +1,116 @@
+// Reset
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+
+// Includes
+
 @import "reset";
 @import "bits";
 @import "type";
 @import "player";
 @import "compass/css3";
 
+
+// Reponsive
+
+@media (min-width: 10px) and (max-width: 512pt){
+  #nav-contain {width:100% !important;}
+  #contain {width: 90% !important; }
+  header {width: 100% !important; }
+}
+
+
 // Structure
 
 html {
   height: 100%;
+  background-color: $Background;
 }
 
 #nav-contain {
-  max-width: 700pt;
+  height: auto;
+  width: 700pt;
   margin-left: 10pt;
+  padding: 0px 10pt 0px 10pt;
 }
 
 
 #contain {
-  max-width: 450pt;
-  margin: 50px auto;
+  max-width: 512pt;
+  margin: 50px auto 150pt auto;
+  padding: 0px 20pt 0px 20pt;
   img {
-	max-width: 100%
+	max-width: 112%;
+	margin-left: -6%;
   }
 }
 
 
 header {
-  height: 50pt;
+  height: 100pt;
   padding-top: 20pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
-  border-bottom: 1pt solid $LightGrey;
-  width: 700pt;
+  border-bottom: 1pt solid #F3F3F3;
+  width: 512pt;
 }
 
 .logo {
-  position: fixed;
-  width: 20pt;
-  padding-top: 4pt;
-  float: left;
+  width: 140pt;
+  height: auto;
+  margin: 0px auto 0px auto;
+  padding-bottom: .4em;
   vertical-align: middle;
+  color: black;
   img {
-    width: 20pt;
+    width: 140pt;
   }
 }
 
 nav {
+  width: 100%;
   font-size: .75em;
-  width: 700pt;
+  max-width: 512pt;
 	font-weight: 800;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -56,13 +119,12 @@ nav {
 	display: inline-block;
 	li {
   	min-width: 30pt;
-  	float: left;
 		display:inline;
-		padding-right: 2em;
+		padding-right: 1em;
+		padding-left: 1em;
 	}
 	ul {
   	vertical-align: center;
-  	float: right;
 	}
 	a {
 		text-decoration: none;
@@ -70,14 +132,17 @@ nav {
 		border-bottom:none;
 	}
 	.selected {
-  	color: $Blue;
+  	color: $DarkGrey;
+  	border-bottom: 2pt solid $Green;
 	}
 }
 
 nav a {
-    color: black;
+    color: $DarkGrey;
     text-decoration: none;
 }
+
+
 
 
 
@@ -99,28 +164,64 @@ nav a {
 	}
 }
 
-
-
-
+.byline {
+  margin: auto;
+  padding-bottom: 2.4em;
+}
 
 small {
 	padding: 0 auto;
 }
 
-
-
 footer {
+  clear: both;
   position: absolute;
-  right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+  height: 140pt;
+  background: $DarkGrey;
+  width: 100%;
+  font-size: .75em;
+	font-weight: 800;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center;
+	display: inline-block;
+	li {
+  	min-width: 30pt;
+		display:inline;
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+	ul {
+  	vertical-align: center;
+  	margin-bottom: 1.5em;
+	}
+	a {
+		text-decoration: none;
+		color: rgba(255, 255, 255, 0.5);
+		border-bottom:none;
+	}
+	p {
+  	color: rgba(0, 0, 0, 0.3);
+  	margin-bottom: 2em;
+    color: white;
+	}
 }
 
+#footer-contain {
+  height: auto;
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 512pt;
+  padding: 0px 10pt 0px 10pt;
+  p {
+  	margin-bottom: 2em;
+	}
 
-
+}
 
 
 // For Printers
@@ -135,22 +236,3 @@ footer {
   .downloads, footer { display: none; }
   section { border: 0; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
