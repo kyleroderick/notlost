@@ -112,8 +112,7 @@ hr {
   margin-bottom: 1.5em;
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid $LightGrey;
 }
 
 h1 {
@@ -174,7 +173,7 @@ h4 {
   margin-bottom: .8em;
   a {
     text-decoration: none;
-    color: $DarkGrey;
+    color: $LinkColor;
     border-bottom: none;
     }
 }
@@ -228,7 +227,7 @@ h6 {
 
 .byline {
   font-size: 1.1em;
-  color: $MiddleGrey;
+  color: $LightGrey;
   text-transform: none;
   font-weight: 600;
   letter-spacing: normal;
@@ -308,7 +307,7 @@ h6 {
 	padding-bottom: 6em;
 	a {
 	text-decoration: none;
-	color: $Green;
+	color: $LinkColor;
 	border-bottom: none;
 	}
 	ul {
@@ -319,7 +318,7 @@ h6 {
   margin-left: 2em;
   a {
     text-decoration: none;
-	  color: $DarkGrey;
+	  color: $LinkColor;
   }
   code {
     font-family: monospace;
@@ -346,10 +345,10 @@ li {
 }
 
 sup {
-  color: $LinkColor;
+  color: $MiddleGrey;
   a {
-    color: $LinkColor;
-    background: $LightGrey;
+    color: $MiddleGrey;
+    background: $LightRed;
     padding: 2pt 6pt 2pt 6pt;
     margin-left: 2pt;
     margin-right: 1pt;
@@ -361,7 +360,7 @@ sup {
 }
 
 .list_horizontal {
-  color: $LinkColor;
+  color: $DarkRed;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
@@ -369,7 +368,7 @@ sup {
   margin-bottom: 2em;
   font-size: .9em;
   a {
-    color: $LinkColor;
+    color: $MiddleGrey;
     background: $LightRed;
     padding: 2pt 6pt 2pt 6pt;
     font-weight: 800;
