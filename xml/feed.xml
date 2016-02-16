@@ -3,15 +3,65 @@
   <channel>
     <title>Not Lost</title>
     <link>http://notlost.co</link>
-    <pubDate>Mon, 15 Feb 2016 16:09:46 -0800</pubDate>
+    <pubDate>Tue, 16 Feb 2016 10:55:55 -0800</pubDate>
     
     <item>
-      <title>Working</title>
-      <link>http://notlost.co/blog/working</link>
-      <pubDate>Thu, 08 Jan 2015 10:34:00 -0800</pubDate>
+      <title>Cambits, a modular imaging system that can transform into many different cameras</title>
+      <link>http://notlost.co/blog/cambits-a-modular-imaging-system-that-can-transform-into-many-different-cameras</link>
+      <pubDate>Tue, 16 Feb 2016 10:32:00 -0800</pubDate>
       <author>Kyle Roderick</author>
-      <guid>http://notlost.co/blog/working</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m working on this. Check back later.&lt;/p&gt;
+      <guid>http://notlost.co/blog/cambits-a-modular-imaging-system-that-can-transform-into-many-different-cameras</guid>
+      <description>&lt;p&gt;Cambits, a modular imaging system that can transform into many different cameras, developed by Columbia Engineering Computer Science Professor Shree Nayar and Makoto Odamaki, visiting scientist from Ricoh Corporation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Putting Pluto’s Geology on the Map</title>
+      <link>http://notlost.co/blog/putting-plutos-geology-on-the-map</link>
+      <pubDate>Tue, 16 Feb 2016 10:18:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://notlost.co/blog/putting-plutos-geology-on-the-map</guid>
+      <description>&lt;p&gt;Nam ac velit faucibus, aliquet magna in, molestie elit. Praesent placerat, tellus vitae porttitor dictum, est odio interdum risus, non fermentum metus arcu ut sem. Aliquam tempor velit tortor, eget luctus diam hendrerit sit amet. Nam gravida arcu eu ullamcorper mollis. Morbi luctus et orci eget imperdiet. Ut consequat leo a justo lobortis, nec feugiat risus dignissim.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mauris eleifend, sem interdum dapibus.</title>
+      <link>http://notlost.co/blog/mauris-eleifend-sem-interdum-dapibus</link>
+      <pubDate>Mon, 15 Feb 2016 22:09:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://notlost.co/blog/mauris-eleifend-sem-interdum-dapibus</guid>
+      <description>&lt;p&gt;Integer vitae ex id nunc commodo consequat at quis odio. Aliquam quis ligula metus. Vivamus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quisque imperdiet quam erat. Maecenas tincidunt orci iaculis fermentum</title>
+      <link>http://notlost.co/blog/quisque-imperdiet-quam-erat-maecenas-tincidunt-orci-iaculis-fermentum</link>
+      <pubDate>Mon, 15 Feb 2016 21:11:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://notlost.co/blog/quisque-imperdiet-quam-erat-maecenas-tincidunt-orci-iaculis-fermentum</guid>
+      <description>&lt;p&gt;Integer eleifend tortor eu orci dapibus, et lacinia nulla lacinia. Ut nunc lacus, condimentum eget augue non, venenatis euismod turpis. Mauris faucibus egestas nulla, a maximus orci interdum a.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Donec sagittis lorem vitae est</title>
+      <link>http://notlost.co/blog/donec-sagittis-lorem-vitae-est</link>
+      <pubDate>Mon, 15 Feb 2016 20:20:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://notlost.co/blog/donec-sagittis-lorem-vitae-est</guid>
+      <description>&lt;p&gt;In purus elit, rutrum ut justo a, lobortis congue augue. Vestibulum vitae ultricies mauris. Morbi vestibulum tortor ac arcu sodales dictum. Cras a bibendum dui.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Morbi bibendum quam sit amet.</title>
+      <link>http://notlost.co/blog/morbi-bibendum-quam-sit-amet</link>
+      <pubDate>Fri, 12 Feb 2016 22:13:00 -0800</pubDate>
+      <author>Kyle Roderick</author>
+      <guid>http://notlost.co/blog/morbi-bibendum-quam-sit-amet</guid>
+      <description>&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere rutrum sodales. Nunc id volutpat enim, quis tincidunt est. Ut dictum interdum ante, vel luctus sem ullamcorper ut. Proin ut blandit diam. Integer id est nec orci placerat ullamcorper sed molestie nulla. Morbi ornare nisi non hendrerit cursus.&lt;/p&gt;
 </description>
     </item>
     
