@@ -295,7 +295,7 @@ h6 {
 	margin-bottom: 1em;
 	font-weight: 800;
 	a {
-		color: $DarkGrey;
+		color: $DarkRed;
 		text-decoration: none;
 		letter-spacing: .02em;
 		border-bottom: none;
@@ -360,7 +360,7 @@ sup {
 }
 
 .list_horizontal {
-  color: $DarkRed;
+  color: $DarkGrey;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
@@ -368,8 +368,8 @@ sup {
   margin-bottom: 2em;
   font-size: .9em;
   a {
-    color: $MiddleGrey;
-    background: $LightRed;
+    color: white;
+    background: $DarkGrey;
     padding: 2pt 6pt 2pt 6pt;
     font-weight: 800;
   letter-spacing: .03em;
@@ -379,7 +379,9 @@ sup {
   }
   li {
     display:inline;
+    line-height: 2em;
     padding-right: .3em;
+    white-space:pre;
   }
 }
 
