@@ -1,78 +1,36 @@
 ---
-time: 1455580989
+time: 1455581390
 inventory:
   "/blog/index.html":
-    md5: 0ff8cb84767ac4d018614764a652422f
-    time: 1455580971
+    md5: 96d968d15117892f6602e11a4b6ffbde
+    time: 1455581386
   "/index.html":
-    md5: 0ff8cb84767ac4d018614764a652422f
-    time: 1455580971
-  "/blog/transmission-/index.html":
-    md5: 511bd3a30543fa6912c4f412f5f69243
-    time: 1455580971
-  "/blog/a-new-post-about-this-site/index.html":
-    md5: 275c783fe1277b8f2cc1f35927b11a08
-    time: 1455580971
-  "/blog/closing-five3d/index.html":
-    md5: 8300fe9f1b67cfd8c6203f26638bc2b4
-    time: 1455580971
-  "/blog/test-post/index.html":
-    md5: f6bf411385d5564fbcdcb6ebea980a69
-    time: 1455580971
-  "/blog/sponsor-craft-coffee/index.html":
-    md5: 81ea02f3fe1a6eb9cddfcf26d9d9311c
-    time: 1455580971
-  "/blog/link-post-to-an-external-site/index.html":
-    md5: c89b2778cc7b91c4b2d1b0eb9e9adf30
-    time: 1455580971
-  "/blog/an-article/index.html":
-    md5: a42d8c7ccbc22d74d1266295e1610d79
-    time: 1455580971
+    md5: 96d968d15117892f6602e11a4b6ffbde
+    time: 1455581386
+  "/blog/working/index.html":
+    md5: a4d7c6e54d8646bc7d4cf5c8659015a2
+    time: 1455581386
   "/blog/archive/index.html":
-    md5: e4333cf15dd11b024328ceaea0e6d2d2
-    time: 1455580971
+    md5: 63693fcf6916297ff024eef1115901cc
+    time: 1455581386
   "/blog/tags/index.html":
-    md5: c373bcb0a4aae70bba4e9488057f3574
-    time: 1455580971
-  "/blog/tags/podcast/index.html":
-    md5: bf56ee7ae463f7139644f8472fb1fa1e
-    time: 1455580971
-  "/blog/tags/apple/index.html":
-    md5: 0affbdfe02c493132025ca04477655f4
-    time: 1455580972
-  "/blog/tags/audio/index.html":
-    md5: 3308d2740fb78928ad0ddcdfda1f0ae8
-    time: 1455580972
-  "/blog/tags/podcasting/index.html":
-    md5: 155a6304b901190bb3a88b2801525c56
-    time: 1455580972
-  "/blog/topics/index.html":
-    md5: f7129dfd8d8573d1d8e61a6af3938a3f
-    time: 1455580972
-  "/blog/topics/podcast/index.html":
-    md5: dad82879798c50dc9572add35ed3c683
-    time: 1455580972
-  "/blog/topics/design/index.html":
-    md5: ded7cbd8c8710649dc7dd2876813d67a
-    time: 1455580972
-  "/blog/topics/elements/index.html":
-    md5: f375991684d8639fd51ab904e5d7efcc
-    time: 1455580972
+    md5: 1249eec2e00631da4be7b49ae3a856b1
+    time: 1455581386
   "/about/index.html":
     md5: 40e8a34d66896ee65e20ce4952e69481
     time: 1455580972
   "/contact/index.html":
-    md5: 22370f3a2c5a5bf6a6578c6bd6fe274c
-    time: 1455580972
+    md5: f99ba5b629f2da5a0cc756110aad185c
+    time: 1455581386
   "/CNAME":
     md5: ca1a05c7c63e73cb31aef904429e3102
     time: 1455580972
   "/sitemap.xml":
-    md5: e73fa45e897ae9425167fe31b87c8ea7
-    time: 1455580972
+    md5: a76b27a6871ed4f501a882ea0006e297
+    time: 1455581386
   "/feed.xml":
-    md5: aa6203b91895b5c9c579a16ba2e4b49f
-    time: 1455580972
+    md5: 6f14e307dfdb1b6ffdea1a65a42657db
+    time: 1455581386
   "/_gitignore":
     md5: 7d56b82ed9ed278b3f61ee79171ba023
     time: 1455580972
@@ -143,8 +101,8 @@ inventory:
     md5: ebe63972f61357ba7626f6f0ad415790
     time: 1455580974
   "/podcasts/bytesize/feed.xml":
-    md5: f893fd0bc3c545c438deee21080cc21c
-    time: 1455580975
+    md5: cab80bbfc9ac5fcc1604040de58afecf
+    time: 1455581386
   "/readme.md":
     md5: 56449d2d050a58666b30197de6eed7db
     time: 1455580975
@@ -179,11 +137,11 @@ inventory:
     md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1455580975
   "/xml/feed.xml":
-    md5: d0cb10d961a02eccdb54586a5c972d9a
-    time: 1455580975
+    md5: 6f14e307dfdb1b6ffdea1a65a42657db
+    time: 1455581386
   "/xml/sitemap.xml":
-    md5: 35d3ab6974b3645ea0f19b6cf0bbc0f3
-    time: 1455580975
+    md5: bf2cda8e773e2501e18ebafeacbc9bb6
+    time: 1455581386
   "/assets/ScreenShot_Jun0915_134.png":
     md5: 130eaafef60ce2f2a4ba2b21ee1658fa
     time: 1455580975
