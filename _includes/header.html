@@ -9,7 +9,7 @@
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
-  <li><a href="{{site.meta['FeedPress']}}">RSS <i class="icon-rss"></i></a></li>
+  <li><a href="{{site.meta['Feed']}}">RSS <i class="icon-rss"></i></a></li>
   </ul>
   </nav>
 </header>
