@@ -4,12 +4,21 @@
   <nav role="navigation">
     <div class="logo"><a href="/"><img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="Not Lost"></a>
     </div>
+
+<!-- Hides Byline and Nav List
+
     <div class="byline">{{site.meta['Site Byline']}}</div>
     <ul>
   {% for page in site.pages %}
     <li><a href="{{page.url}}"{% if page.url == url %} class="selected"{% endif %}>{{page.title}}</a></li>
   {% endfor %}
+
+-->
+
+  <!-- Feed
   <li><a href="{{site.meta['Feed']}}">RSS <i class="icon-rss"></i></a></li>
+  -->
+
   </ul>
   </nav>
 </header>

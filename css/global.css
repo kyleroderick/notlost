@@ -199,9 +199,9 @@ h6 {
 
 .byline {
   font-size: 1.1em;
-  color: #EAE6E4;
+  color: #CECBCB;
   text-transform: none;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal; }
 
 .link-icon {
@@ -415,7 +415,7 @@ div.audio-player {
     width: 100% !important; } }
 html {
   height: 100%;
-  background-color: #FFF; }
+  background-color: #F4F4F0; }
 
 #nav-contain {
   height: auto;
@@ -425,15 +425,15 @@ html {
 
 #contain {
   max-width: 512pt;
-  margin: 50px auto 150pt auto;
+  margin: 50px auto 0pt auto;
   padding: 0px 20pt 0px 20pt; }
   #contain img {
     max-width: 112%;
     margin-left: -6%; }
 
 header {
-  height: 100pt;
-  padding-top: 20pt;
+  height: 50pt;
+  padding-top: 30pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
   border-bottom: 1pt solid #EAE6E4;
@@ -534,7 +534,6 @@ footer {
 
 .footer-contain {
   height: auto;
-  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;

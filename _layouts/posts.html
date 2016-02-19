@@ -10,6 +10,8 @@
 {% assign postStartDate = post.date | date: '%j' %}
 {% if postStartDate >= curDate %}
 
+{% assign sorted_posts = site.posts | sort:"meta.sticky","last" %}
+
   <article class="link-post">
     <ul class="list-horizontal">
       {% if post.meta.num %}
