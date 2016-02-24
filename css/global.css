@@ -307,7 +307,7 @@ sup {
   margin-top: 0;
   margin-bottom: 0em;
   font-size: .9em; }
-  .list-horizontal a {
+  .list-horizontal span {
     color: white;
     background: #EA977F;
     padding: 3pt 6pt 3pt 6pt;
@@ -415,7 +415,7 @@ div.audio-player {
     width: 100% !important; } }
 html {
   height: 100%;
-  background-color: #F4F4F0; }
+  background-color: #FFF; }
 
 #nav-contain {
   height: auto;
@@ -440,7 +440,9 @@ header {
   width: 512pt; }
 
 .logo {
-  width: 140pt;
+  width: auto;
+  font-family: fatfrank, sans-serif;
+  font-size: 3em;
   height: auto;
   margin: 0px auto 0px auto;
   padding-bottom: .4em;

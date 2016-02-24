@@ -19,7 +19,7 @@
       {% endif %}
 
    {% for tag in post.taxonomy.Tags | limit: 1 %}
-    <li><a class="list-horizontal" href="{{tag.url}}">{{tag.value}}</a></li>
+    <li><span class="list-horizontal" href="{{tag.url}}">{{tag.value}}</span></li>
    {% endfor %}
     </ul>
 
