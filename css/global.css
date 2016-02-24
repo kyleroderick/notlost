@@ -150,7 +150,7 @@ h4 {
   line-height: 1.1em;
   text-transform: uppercase;
   letter-spacing: .02em;
-  color: #DFDBDB;
+  color: #B6B2B5;
   margin-top: 1.5em;
   margin-bottom: .8em; }
   h4 a {
@@ -165,7 +165,7 @@ h5 {
   text-transform: uppercase;
   letter-spacing: .02em;
   margin-bottom: 1em;
-  color: #DFDBDB; }
+  color: #B6B2B5; }
   h5 a {
     text-decoration: none;
     color: #F93C0E;
@@ -177,7 +177,7 @@ h6 {
   line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: .02em;
-  color: #DFDBDB; }
+  color: #B6B2B5; }
   h6 a {
     text-decoration: none;
     color: #F93C0E;
@@ -199,7 +199,7 @@ h6 {
 
 .byline {
   font-size: 1.1em;
-  color: #DFDBDB;
+  color: #B6B2B5;
   text-transform: none;
   font-weight: 500;
   letter-spacing: normal; }
@@ -207,10 +207,10 @@ h6 {
 .link-icon {
   font-size: .8em;
   padding-left: .5em;
-  color: #DFDBDB; }
+  color: #B6B2B5; }
   .link-icon a {
     text-decoration: none;
-    color: #DFDBDB;
+    color: #B6B2B5;
     border-bottom: none; }
 
 .permalink-icon {
@@ -243,7 +243,7 @@ h6 {
   font-weight: 400;
   padding-bottom: .3em; }
   .link-post-title a {
-    color: #DFDBDB;
+    color: #B6B2B5;
     text-decoration: none;
     border-bottom: none; }
 
@@ -287,9 +287,9 @@ h6 {
   border-bottom: none; }
 
 sup {
-  color: #DFDBDB; }
+  color: #B6B2B5; }
   sup a {
-    color: #DFDBDB;
+    color: #B6B2B5;
     background: #E4E5C3;
     padding: 2pt 6pt 2pt 6pt;
     margin-left: 2pt;
@@ -333,7 +333,7 @@ sup {
   list-style: none;
   font-weight: 800;
   color: #2A2400;
-  background: #DFDBDB;
+  background: #EAE6E4;
   padding: 3pt 6pt 3pt 6pt;
   font-size: .85em;
   text-decoration: none;
@@ -366,12 +366,12 @@ sup {
   letter-spacing: .05em; }
 
 .recent-date {
-  color: #DFDBDB;
+  color: #B6B2B5;
   font-size: 1em;
   float: right; }
 
 blockquote {
-  color: #DFDBDB;
+  color: #B6B2B5;
   margin-top: .8em;
   margin-bottom: .8em;
   margin-left: 0;
@@ -438,7 +438,7 @@ header {
   padding-top: 30pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
-  border-bottom: 1pt solid #DFDBDB;
+  border-bottom: 1pt solid #EAE6E4;
   width: 512pt; }
 
 .logo {
@@ -494,8 +494,8 @@ nav a {
     font-weight: 400;
     font-size: 1.1em;
     line-height: normal;
-    color: #DFDBDB;
-    border-bottom: 1px solid #DFDBDB; }
+    color: #B6B2B5;
+    border-bottom: 1px solid #B6B2B5; }
 
 .byline {
   margin: auto;
