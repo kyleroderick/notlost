@@ -1,9 +1,9 @@
 // Fonts
-@mixin sans {font-family: "depot-new-web", "Helvetica-neue", Helvetica, sans-serif;
+@mixin sans {font-family:	"adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-@mixin logo {font-family: "depot-new-web", "Helvetica-neue", Helvetica, sans-serif;
+@mixin logo {font-family: "fatfrank", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,7 +30,7 @@ body {
   padding-bottom: 4rem;
   min-height: 100%;
   @include sans;
-  font-size: 18px;
+  font-size: 16px;
 	font-weight: 400;
 	color: $DarkGrey;
 	a {
@@ -74,7 +74,7 @@ li {
 
 
 p {
-  line-height: 1.4em;
+  line-height: 1.6em;
   padding-bottom: .5em;
   padding-top: .4em;
 	a {
@@ -361,12 +361,13 @@ sup {
 
 .list-horizontal {
   color: $Orange;
+  @include sans;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
   margin-top: 0;
   margin-bottom: 0em;
-  font-size: .9em;
+  font-size: .95em;
   span {
     color: white;
     background: $Orange;
@@ -429,7 +430,7 @@ sup {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-	color: $MiddleGrey;
+	color: $DarkGrey;
 	margin-top: 1em;
 	margin-bottom: 1.4em;
   text-transform:uppercase;

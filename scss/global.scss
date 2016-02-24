@@ -97,14 +97,13 @@ header {
 
 .logo {
   width: auto;
-  font-family: fatfrank, sans-serif;
+  @include logo;
   font-size: 3em;
-
   height: auto;
   margin: 0px auto 0px auto;
   padding-bottom: .4em;
   vertical-align: middle;
-  color: $LinkColor;
+  color: $Orange;
   img {
     width: 140pt;
   }
@@ -131,17 +130,17 @@ nav {
 	}
 	a {
 		text-decoration: none;
-		color: $MiddleGrey;
+		color: $Orange;
 		border-bottom:none;
 	}
 	.selected {
-  	color: $DarkGrey;
+  	color: $Orange;
   	border-bottom: 2pt solid $LinkColor;
 	}
 }
 
 nav a {
-    color: $DarkGrey;
+    color: $LinkColor;
     text-decoration: none;
 }
 
