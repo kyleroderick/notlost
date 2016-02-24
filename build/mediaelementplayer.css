@@ -275,7 +275,7 @@
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #E74847;
+	background: #4275F4;
 	width: 6px;
 }
 
@@ -296,7 +296,7 @@
 .mejs-controls .mejs-time-rail .mejs-time-float {
 	position: absolute;
 	display: none;
-	background: #E94642;
+	background: #4275F4;
 	font-size: .8em;
 	width: 36px;
 	height: 17px;
@@ -320,8 +320,8 @@
 	width: 0;
 	height: 0;
 	line-height: 0;
-	border: solid 5px #E94642;
-	border-color: #E94642 transparent transparent transparent;
+	border: solid 5px #4275F4;
+	border-color: #4275F4 transparent transparent transparent;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -474,7 +474,7 @@
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background: #E94642;
+	background: #4275F4;
 }
 
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
@@ -919,4 +919,3 @@ div.mejs-speed-button {
 }
 
 /* End: Skip Back */
-

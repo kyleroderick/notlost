@@ -1,11 +1,12 @@
 // Fonts
-@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+@mixin sans {font-family:	"adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-@mixin logo {font-family: "museo-sans-rounded", "Helvetica-neue", Helvetica, sans-serif;
+@mixin logo {font-family: "fatfrank", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 
 @mixin iconfont {font-family: "FontAwesome";
   -webkit-font-smoothing: antialiased;
@@ -29,7 +30,7 @@ body {
   padding-bottom: 4rem;
   min-height: 100%;
   @include sans;
-  font-size: 17px;
+  font-size: 16px;
 	font-weight: 400;
 	color: $DarkGrey;
 	a {
@@ -73,9 +74,9 @@ li {
 
 
 p {
-  line-height: 1.7em;
-  padding-bottom: .7em;
-  padding-top: .7em;
+  line-height: 1.6em;
+  padding-bottom: .5em;
+  padding-top: .4em;
 	a {
 	text-decoration: none;
 	color: $LinkColor;
@@ -112,8 +113,7 @@ hr {
   margin-bottom: 1.5em;
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid $DarkGrey;
 }
 
 h1 {
@@ -174,7 +174,7 @@ h4 {
   margin-bottom: .8em;
   a {
     text-decoration: none;
-    color: $DarkGrey;
+    color: $LinkColor;
     border-bottom: none;
     }
 }
@@ -230,19 +230,19 @@ h6 {
   font-size: 1.1em;
   color: $MiddleGrey;
   text-transform: none;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
 
 
 .link-icon {
-	font-size: 1.2em;
+	font-size: .8em;
 	padding-left: .5em;
-	color: $LinkColor;
+	color: $MiddleGrey;
 	a{
 		text-decoration: none;
-		color: $LinkColor;
+		color: $MiddleGrey;
 		border-bottom: none;
 	}
 }
@@ -281,11 +281,11 @@ h6 {
 
 
 .link-post-title {
-	font-size: 1.45em;
-	font-weight: 700;
+	font-size: .9em;
+	font-weight: 400;
 	padding-bottom: .3em;
 	a {
-		color: $LinkColor;
+		color: $MiddleGrey;
 		text-decoration: none;
 		border-bottom: none;
 	}
@@ -296,7 +296,7 @@ h6 {
 	margin-bottom: 1em;
 	font-weight: 800;
 	a {
-		color: $DarkGrey;
+		color: $DarkRed;
 		text-decoration: none;
 		letter-spacing: .02em;
 		border-bottom: none;
@@ -304,11 +304,10 @@ h6 {
 }
 
 .link-excerpt {
-	line-height: 1.9em;
-	padding-bottom: 6em;
+	line-height: 1.4em;
 	a {
 	text-decoration: none;
-	color: $Green;
+	color: $LinkColor;
 	border-bottom: none;
 	}
 	ul {
@@ -319,7 +318,7 @@ h6 {
   margin-left: 2em;
   a {
     text-decoration: none;
-	  color: $DarkGrey;
+	  color: $LinkColor;
   }
   code {
     font-family: monospace;
@@ -346,10 +345,10 @@ li {
 }
 
 sup {
-  color: $LinkColor;
+  color: $MiddleGrey;
   a {
-    color: $LinkColor;
-    background: $LightGrey;
+    color: $MiddleGrey;
+    background: $LightRed;
     padding: 2pt 6pt 2pt 6pt;
     margin-left: 2pt;
     margin-right: 1pt;
@@ -360,29 +359,60 @@ sup {
   }
 }
 
-.list_horizontal {
-  color: $LinkColor;
+.list-horizontal {
+  color: $Green;
+  @include sans;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
   margin-top: 0;
-  margin-bottom: 2em;
-  font-size: .9em;
-  a {
-    color: $LinkColor;
-    background: $LightRed;
-    padding: 2pt 6pt 2pt 6pt;
+  margin-bottom: 0em;
+  font-size: .95em;
+  span {
+    color: white;
+    background: $Green;
+    padding: 3pt 6pt 3pt 6pt;
     font-weight: 800;
   letter-spacing: .03em;
-    font-size: .8em;
+    font-size: .85em;
     text-decoration: none;
     border-radius: 4pt;
+    vertical-align: middle;
   }
   li {
     display:inline;
+    line-height: 2em;
     padding-right: .3em;
+    white-space:pre;
   }
 }
+
+.link-post {
+  padding-bottom: 2.5em;
+}
+
+
+.list-horizontal-alt {
+  a {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 800;
+  color: $DarkGrey;
+  background: $LightGrey;
+  padding: 3pt 6pt 3pt 6pt;
+  font-size: .85em;
+  text-decoration: none;
+  border-radius: 4pt;
+  margin-right: .3em;
+}
+  li {
+    display:inline;
+    line-height: 2em;
+    padding-right: .3em;
+    white-space:pre;
+  }
+}
+
 
 .excerpt {
 	line-height: 1.9em;
@@ -394,12 +424,17 @@ sup {
 }
 
 .date {
-	font-size: .9em;
+	font-size: 1.1em;
 	font-weight: 600;
+  max-width: 200pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 	color: $MiddleGrey;
 	margin-top: 1em;
 	margin-bottom: 1.4em;
-	letter-spacing: .02em;
+  text-transform:uppercase;
+	letter-spacing: .05em;
 }
 
 .recent-date {

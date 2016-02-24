@@ -8,17 +8,12 @@
   <link rel="canonical" href="http://notlost.co/listening" />
   <link rel="alternate" type="application/rss+xml" href="http://notlost.co/feed.xml" />
   <link rel="stylesheet" href="../../css/global.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
-  
-  <script src="../../js/timeJump.js"></script>
-  
-  <script src="../../build/jquery.js"></script>
-  <script src="../../build/mediaelement-and-player.min.js"></script>
-  <link rel="stylesheet" href="../../build/mediaelementplayer.css"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <script>
     $(document).ready(function() { $('video, audio').mediaelementplayer(); });
-  </script>  
+  </script>
 </head>
+
 
 <!-- Google Analytics -->
 <script type="text/javascript">
@@ -35,7 +30,7 @@ _gaq.push(['_trackPageview']);
 
 
 <!-- Typekit Code -->
-<script type="text/javascript" src="//use.typekit.net/cuf2nzl.js"></script>
+<script type="text/javascript" src="//use.typekit.net/pwv1tjv.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <!-- Page -->
@@ -43,15 +38,29 @@ _gaq.push(['_trackPageview']);
 
 <header>
   <nav role="navigation">
-    <div class="logo"><a href="http://notlost.co"><img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="Not Lost"></a>
+    <div class="logo"><a href="/">Not Lost</a>
     </div>
-    <div class="byline">Exploring the Internet </div>
+
+<!-- Hides Byline and Nav List
+
+<img src="../../img/logo.svg" onerror="this.onerror=null; this.src='../../img/logo.png'" alt="Not Lost">
+
+    <div class="byline"></div>
     <ul>
   
+    <li><a href="/">Today</a></li>
+  
+
+-->
+
+  <!-- Feed
   <li><a href="http://feedpress.me/notlost">RSS <i class="icon-rss"></i></a></li>
+  -->
+
   </ul>
   </nav>
 </header>
+
 
 	
 <div id="contain">
@@ -99,30 +108,33 @@ _gaq.push(['_trackPageview']);
 </div>
 
 <footer>
-  
   <div id="footer-contain">
-  
+
+<!-- Hide Archive and Feed
     <ul>
-    <li><a href="">iTunes</a></li>
-    <li><a href="">SoundCloud</a></li>
-    <li><a href="http://notlost.co/blog/archive">Archive</a></li>
-    <li><a href="">RSS <i class="icon-rss"></i></a></li>
+    <li><a href="/blog/archive">Archive</a></li>
+    <li><a href="http://feedpress.me/notlost">RSS <i class="icon-rss"></i></a></li>
     </ul>
-    
+-->
+
+<!-- Social -->
     <ul>
     <li><a href="http://twitter.com/notlostco"><i class="icon-twitter"></i></a></li>
     <li><a href=""><i class="icon-facebook"></i></a></li>
     </ul>
 
-  
+<!-- Site Info -->
     <p>
     Open sourced in <a href="http://github.com/kyleroderick/notlost">Siteleaf</a><br>
-    &copy; 2016 Not Lost Co
-    </p>
-    
-  </div>
-  
-</footer>
 
+<!-- Copyright
+    &copy; 2016 Not Lost Co
+    -->
+    
+    </p>
+
+  </div>
+
+</footer>
 
 </html>

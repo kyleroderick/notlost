@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -50,26 +49,26 @@ body {
   margin: 0;
   padding-bottom: 4rem;
   min-height: 100%;
-  font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  font-family: "adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
-  color: #2D293D; }
+  color: #412B4E; }
   body a {
     outline: none; }
 
 article p a {
   text-decoration: none;
-  color: #E37352; }
+  color: #81D7A6; }
 article ul {
-  color: #2D293D;
+  color: #412B4E;
   margin-bottom: 1em;
   margin-top: 1em;
   list-style: disc;
   margin-left: 2em; }
   article ul a {
     text-decoration: none;
-    color: #2D293D; }
+    color: #412B4E; }
   article ul code {
     font-family: monospace;
     font-weight: 700;
@@ -79,21 +78,21 @@ article li {
   margin-bottom: 1em; }
 
 p {
-  line-height: 1.7em;
-  padding-bottom: .7em;
-  padding-top: .7em; }
+  line-height: 1.6em;
+  padding-bottom: .5em;
+  padding-top: .4em; }
   p a {
     text-decoration: none;
-    color: #E37352; }
+    color: #81D7A6; }
   p ul {
-    color: #2D293D;
+    color: #412B4E;
     margin-bottom: 1em;
     margin-top: 1em;
     list-style: disc;
     margin-left: 2em; }
     p ul a {
       text-decoration: none;
-      color: #2D293D; }
+      color: #412B4E; }
     p ul code {
       font-family: monospace;
       font-weight: 700;
@@ -107,8 +106,7 @@ hr {
   margin-bottom: 1.5em;
   border: 0;
   height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+  border-top: 1px solid #412B4E; }
 
 h1 {
   font-weight: 800;
@@ -124,14 +122,14 @@ h2 {
   font-weight: 700;
   line-height: normal;
   font-size: 1.4em;
-  color: #2D293D; }
+  color: #412B4E; }
   h2 a {
     text-decoration: none;
     border-bottom: none;
-    color: #2D293D; }
+    color: #412B4E; }
 
 h2.page {
-  color: #2D293D; }
+  color: #412B4E; }
   h2.page a {
     text-decoration: none;
     border-bottom: none; }
@@ -145,19 +143,19 @@ h3 {
   h3 a {
     text-decoration: none;
     border-bottom: none;
-    color: #E37352; }
+    color: #81D7A6; }
 
 h4 {
   font-weight: 800;
   line-height: 1.1em;
   text-transform: uppercase;
   letter-spacing: .02em;
-  color: #B0B2B2;
+  color: #CECBCB;
   margin-top: 1.5em;
   margin-bottom: .8em; }
   h4 a {
     text-decoration: none;
-    color: #2D293D;
+    color: #81D7A6;
     border-bottom: none; }
 
 h5 {
@@ -167,10 +165,10 @@ h5 {
   text-transform: uppercase;
   letter-spacing: .02em;
   margin-bottom: 1em;
-  color: #B0B2B2; }
+  color: #CECBCB; }
   h5 a {
     text-decoration: none;
-    color: #E37352;
+    color: #81D7A6;
     border-bottom: none; }
 
 h6 {
@@ -179,10 +177,10 @@ h6 {
   line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: .02em;
-  color: #B0B2B2; }
+  color: #CECBCB; }
   h6 a {
     text-decoration: none;
-    color: #E37352;
+    color: #81D7A6;
     border-bottom: none; }
 
 .related-header {
@@ -194,25 +192,25 @@ h6 {
   list-style-type: none;
   padding-left: 1em;
   font-weight: 600;
-  border-left: 4px solid #2D293D; }
+  border-left: 4px solid #412B4E; }
   .related-list a {
     text-decoration: none;
-    color: #2D293D; }
+    color: #412B4E; }
 
 .byline {
   font-size: 1.1em;
-  color: #B0B2B2;
+  color: #CECBCB;
   text-transform: none;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal; }
 
 .link-icon {
-  font-size: 1.2em;
+  font-size: .8em;
   padding-left: .5em;
-  color: #E37352; }
+  color: #CECBCB; }
   .link-icon a {
     text-decoration: none;
-    color: #E37352;
+    color: #CECBCB;
     border-bottom: none; }
 
 .permalink-icon {
@@ -222,7 +220,7 @@ h6 {
   .permalink-icon a {
     text-decoration: none;
     border-bottom: none;
-    color: #E37352; }
+    color: #81D7A6; }
 
 .header {
   font-weight: 300;
@@ -230,22 +228,22 @@ h6 {
   .header a {
     text-decoration: none;
     border-bottom: none;
-    color: #2D293D; }
+    color: #412B4E; }
 
 .page {
   font-weight: 800;
   font-size: 2.2em;
-  color: #E37352; }
+  color: #81D7A6; }
   .page a {
     text-decoration: none;
     border-bottom: none; }
 
 .link-post-title {
-  font-size: 1.45em;
-  font-weight: 700;
+  font-size: .9em;
+  font-weight: 400;
   padding-bottom: .3em; }
   .link-post-title a {
-    color: #E37352;
+    color: #CECBCB;
     text-decoration: none;
     border-bottom: none; }
 
@@ -260,21 +258,20 @@ h6 {
     border-bottom: none; }
 
 .link-excerpt {
-  line-height: 1.9em;
-  padding-bottom: 6em; }
+  line-height: 1.4em; }
   .link-excerpt a {
     text-decoration: none;
-    color: #E37352;
+    color: #81D7A6;
     border-bottom: none; }
   .link-excerpt ul {
-    color: #2D293D;
+    color: #412B4E;
     margin-bottom: 1em;
     margin-top: 1em;
     list-style: disc;
     margin-left: 2em; }
     .link-excerpt ul a {
       text-decoration: none;
-      color: #2D293D; }
+      color: #81D7A6; }
     .link-excerpt ul code {
       font-family: monospace;
       font-weight: 700;
@@ -284,16 +281,16 @@ h6 {
     margin-bottom: 1em; }
 
 .footnotes a {
-  color: #E37352;
+  color: #81D7A6;
   font-weight: bold;
   text-decoration: none;
   border-bottom: none; }
 
 sup {
-  color: #E37352; }
+  color: #CECBCB; }
   sup a {
-    color: #E37352;
-    background: #E6E6E6;
+    color: #CECBCB;
+    background: #E4E5C3;
     padding: 2pt 6pt 2pt 6pt;
     margin-left: 2pt;
     margin-right: 1pt;
@@ -302,54 +299,84 @@ sup {
     text-decoration: none;
     border-radius: 4pt; }
 
-.list_horizontal {
-  color: #E37352;
+.list-horizontal {
+  color: #81D7A6;
+  font-family: "adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
   margin-top: 0;
-  margin-bottom: 2em;
-  font-size: .9em; }
-  .list_horizontal a {
-    color: #E37352;
-    background: #DCDFDF;
-    padding: 2pt 6pt 2pt 6pt;
+  margin-bottom: 0em;
+  font-size: .95em; }
+  .list-horizontal span {
+    color: white;
+    background: #81D7A6;
+    padding: 3pt 6pt 3pt 6pt;
     font-weight: 800;
     letter-spacing: .03em;
-    font-size: .8em;
+    font-size: .85em;
     text-decoration: none;
-    border-radius: 4pt; }
-  .list_horizontal li {
+    border-radius: 4pt;
+    vertical-align: middle; }
+  .list-horizontal li {
     display: inline;
-    padding-right: .3em; }
+    line-height: 2em;
+    padding-right: .3em;
+    white-space: pre; }
+
+.link-post {
+  padding-bottom: 2.5em; }
+
+.list-horizontal-alt a {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 800;
+  color: #412B4E;
+  background: #EAE6E4;
+  padding: 3pt 6pt 3pt 6pt;
+  font-size: .85em;
+  text-decoration: none;
+  border-radius: 4pt;
+  margin-right: .3em; }
+.list-horizontal-alt li {
+  display: inline;
+  line-height: 2em;
+  padding-right: .3em;
+  white-space: pre; }
 
 .excerpt {
   line-height: 1.9em;
   padding-bottom: 6em; }
   .excerpt a {
     text-decoration: none;
-    color: #E37352; }
+    color: #81D7A6; }
 
 .date {
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: 600;
-  color: #B0B2B2;
+  max-width: 200pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #CECBCB;
   margin-top: 1em;
   margin-bottom: 1.4em;
-  letter-spacing: .02em; }
+  text-transform: uppercase;
+  letter-spacing: .05em; }
 
 .recent-date {
-  color: #B0B2B2;
+  color: #CECBCB;
   font-size: 1em;
   float: right; }
 
 blockquote {
-  color: #B0B2B2;
+  color: #CECBCB;
   margin-top: .8em;
   margin-bottom: .8em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid #E37352; }
+  border-left: 2px solid #81D7A6; }
   blockquote p {
     display: inline; }
 
@@ -400,27 +427,30 @@ html {
 
 #contain {
   max-width: 512pt;
-  margin: 50px auto 150pt auto;
+  margin: 50px auto 0pt auto;
   padding: 0px 20pt 0px 20pt; }
   #contain img {
     max-width: 112%;
     margin-left: -6%; }
 
 header {
-  height: 100pt;
-  padding-top: 20pt;
+  height: 50pt;
+  padding-top: 30pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
-  border-bottom: 1pt solid #F3F3F3;
+  border-bottom: 1pt solid #EAE6E4;
   width: 512pt; }
 
 .logo {
-  width: 140pt;
+  width: auto;
+  font-family: "fatfrank", "Helvetica-neue", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
   height: auto;
   margin: 0px auto 0px auto;
   padding-bottom: .4em;
   vertical-align: middle;
-  color: black; }
+  color: #81D7A6; }
   .logo img {
     width: 140pt; }
 
@@ -443,14 +473,14 @@ nav {
     vertical-align: center; }
   nav a {
     text-decoration: none;
-    color: #B0B2B2;
+    color: #CECBCB;
     border-bottom: none; }
   nav .selected {
-    color: #2D293D;
-    border-bottom: 2pt solid #E37352; }
+    color: #412B4E;
+    border-bottom: 2pt solid #81D7A6; }
 
 nav a {
-  color: #2D293D;
+  color: #412B4E;
   text-decoration: none; }
 
 .img {
@@ -464,8 +494,8 @@ nav a {
     font-weight: 400;
     font-size: 1.1em;
     line-height: normal;
-    color: #B0B2B2;
-    border-bottom: 1px solid #B0B2B2; }
+    color: #CECBCB;
+    border-bottom: 1px solid #CECBCB; }
 
 .byline {
   margin: auto;
@@ -479,9 +509,10 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 140pt;
-  background: #2D293D;
+  height: auto;
+  background: #412B4E;
   width: 100%;
+  padding-top: 4em;
   font-size: .75em;
   font-weight: 800;
   letter-spacing: .1em;
@@ -506,14 +537,13 @@ footer {
     margin-bottom: 2em;
     color: white; }
 
-#footer-contain {
+.footer-contain {
   height: auto;
-  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   max-width: 512pt;
-  padding: 0px 10pt 0px 10pt; }
-  #footer-contain p {
+  padding: 20px 10pt 0px 10pt; }
+  .footer-contain p {
     margin-bottom: 2em; }
 
 @media print {
