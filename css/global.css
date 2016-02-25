@@ -240,12 +240,13 @@ h6 {
 
 .link-post-title {
   font-size: .9em;
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: .3em; }
   .link-post-title a {
     color: #B6B2B5;
     text-decoration: none;
-    border-bottom: none; }
+    border-bottom: 1pt solid #EAE6E4;
+    line-height: normal; }
 
 .post-title {
   font-size: 2.2em;
@@ -434,7 +435,7 @@ html {
     margin-left: -6%; }
 
 header {
-  height: 50pt;
+  height: 70pt;
   padding-top: 30pt;
   vertical-align: middle;
   margin: 10pt auto 10pt auto;
@@ -448,7 +449,7 @@ header {
   font-size: 3em;
   height: auto;
   margin: 0px auto 0px auto;
-  padding-bottom: .4em;
+  padding-bottom: .1em;
   vertical-align: middle;
   color: #F93C0E; }
   .logo img {
@@ -499,7 +500,7 @@ nav a {
 
 .byline {
   margin: auto;
-  padding-bottom: 2.4em; }
+  padding-bottom: 3em; }
 
 small {
   padding: 0 auto; }
@@ -510,7 +511,7 @@ footer {
   bottom: 0;
   left: 0;
   height: auto;
-  background: #2A2400;
+  background: #FFF;
   width: 100%;
   padding-top: 4em;
   font-size: .75em;
@@ -530,12 +531,12 @@ footer {
     margin-bottom: 1.5em; }
   footer a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
+    color: #B6B2B5;
     border-bottom: none; }
   footer p {
     color: rgba(0, 0, 0, 0.3);
     margin-bottom: 2em;
-    color: white; }
+    color: #2A2400; }
 
 .footer-contain {
   height: auto;
