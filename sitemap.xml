@@ -3,121 +3,73 @@
 
   <url>
     <loc>http://notlost.co/</loc>
-    <lastmod>2016-02-24T19:56:52+00:00</lastmod>
+    <lastmod>2016-02-25T05:35:23+00:00</lastmod>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://notlost.co/today/evidence-of-early-medieval-muslim-graves-found-in-france</loc>
-    <lastmod>2016-02-24T20:04:25+00:00</lastmod>
+    <loc>http://notlost.co/today/what-chocolate-looks-like-when-viewed-under-a-scanning-electron-microscope</loc>
+    <lastmod>2016-02-25T06:08:55+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://notlost.co/today/innovative-device-traces-chemicals-affecting-human-and-environmental-health</loc>
+    <lastmod>2016-02-25T06:12:25+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://notlost.co/today/can-gaming-mend-damaged-brains</loc>
+    <lastmod>2016-02-25T06:09:48+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://notlost.co/today/computers-can-tell-if-youre-bored-shows-new-study</loc>
+    <lastmod>2016-02-25T06:09:57+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://notlost.co/today/conservatives-prefer-using-nouns-new-research-finds</loc>
-    <lastmod>2016-02-24T20:04:57+00:00</lastmod>
+    <lastmod>2016-02-25T06:10:05+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://notlost.co/today/astronomers-finally-pinpoint-the-location-of-mysterious-radio-bursts-in-space</loc>
-    <lastmod>2016-02-24T20:05:27+00:00</lastmod>
+    <lastmod>2016-02-25T06:10:13+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://notlost.co/today/cardiologists-use-3-d-printing-to-personalize-treatment-for-heart-disease-sciencedaily</loc>
-    <lastmod>2016-02-24T20:06:01+00:00</lastmod>
+    <lastmod>2016-02-25T06:10:21+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://notlost.co/today/wild-gorillas-compose-happy-songs-that-they-hum-during-meals-new-scientist</loc>
-    <lastmod>2016-02-24T20:06:18+00:00</lastmod>
+    <loc>http://notlost.co/today/wild-gorillas-compose-happy-songs-that-they-hum-during-meals</loc>
+    <lastmod>2016-02-25T06:10:37+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://notlost.co/today/one-year-crew-returns-from-space-station-march-1-live-coverage-on-nasa-tv</loc>
-    <lastmod>2016-02-24T20:06:35+00:00</lastmod>
+    <lastmod>2016-02-25T06:10:51+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://notlost.co/today/nanowire-news-on-twitter</loc>
+    <lastmod>2016-02-25T06:14:58+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://notlost.co/today/human-survivors-of-ebola-may-offer-clue-to-effective-treatment</loc>
-    <lastmod>2016-02-24T19:40:40+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/feedpress-is-analytics-and-podcast-hosting</loc>
-    <lastmod>2016-02-24T05:21:48+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/researchers-develop-new-nanoparticle-with-potential-to-treat-ocular-cancer</loc>
-    <lastmod>2016-02-24T05:21:57+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/president-obama-honors-early-career-scientists-with-top-white-house-award</loc>
-    <lastmod>2016-02-24T05:22:05+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/nasa-scientists-engineers-receive-presidential-early-career-awards</loc>
-    <lastmod>2016-02-24T05:22:14+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/what-chocolate-looks-like-when-viewed-under-a-scanning-electron-microscope</loc>
-    <lastmod>2016-02-18T23:01:29+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/functional-biomarker-for-age-related-macular-degeneration-found</loc>
-    <lastmod>2016-02-18T23:02:51+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/cambits-a-modular-imaging-system-that-can-transform-into-many-different-cameras</loc>
-    <lastmod>2016-02-16T18:45:00+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/putting-plutos-geology-on-the-map</loc>
-    <lastmod>2016-02-16T18:20:41+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/mauris-eleifend-sem-interdum-dapibus</loc>
-    <lastmod>2016-02-16T06:10:04+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/quisque-imperdiet-quam-erat-maecenas-tincidunt-orci-iaculis-fermentum</loc>
-    <lastmod>2016-02-16T05:35:33+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/donec-sagittis-lorem-vitae-est</loc>
-    <lastmod>2016-02-16T05:35:41+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://notlost.co/today/morbi-bibendum-quam-sit-amet</loc>
-    <lastmod>2016-02-16T06:14:05+00:00</lastmod>
+    <lastmod>2016-02-25T06:11:35+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   

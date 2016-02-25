@@ -254,7 +254,7 @@ h6 {
 	a {
 		text-decoration: none;
 		border-bottom: none;
-		color: $Green;
+		color: $Orange;
   }
 }
 
@@ -271,7 +271,7 @@ h6 {
 .page {
 	font-weight: 800;
 	font-size: 2.2em;
-	color: $Green;
+	color: $Orange;
 	a {
 		text-decoration: none;
 		border-bottom: none;
@@ -282,12 +282,14 @@ h6 {
 
 .link-post-title {
 	font-size: .9em;
-	font-weight: 400;
+	font-weight: 500;
 	padding-bottom: .3em;
+
 	a {
 		color: $MiddleGrey;
 		text-decoration: none;
-		border-bottom: none;
+		border-bottom: 1pt solid $LightGrey;
+    line-height: normal;
 	}
 }
 
@@ -360,7 +362,7 @@ sup {
 }
 
 .list-horizontal {
-  color: $Green;
+  color: $Orange;
   @include sans;
   text-transform: uppercase;
   list-style: none;
@@ -370,7 +372,7 @@ sup {
   font-size: .95em;
   span {
     color: white;
-    background: $Green;
+    background: $Orange;
     padding: 3pt 6pt 3pt 6pt;
     font-weight: 800;
   letter-spacing: .03em;
@@ -419,7 +421,7 @@ sup {
 	padding-bottom: 6em;
 	a {
 	text-decoration: none;
-	color: $Green;
+	color: $Orange;
 	}
 }
 
@@ -430,7 +432,7 @@ sup {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-	color: $MiddleGrey;
+	color: $DarkGrey;
 	margin-top: 1em;
 	margin-bottom: 1.4em;
   text-transform:uppercase;
@@ -449,7 +451,7 @@ blockquote {
   margin-bottom: .8em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid $Green;
+  border-left: 2px solid $Orange;
   p {
   display: inline;
   }
