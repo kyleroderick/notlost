@@ -1,11 +1,12 @@
 // Fonts
-@mixin sans {font-family: ".tk-adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
+@mixin sans {font-family:	"adelle-sans", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-@mixin logo {font-family: "museo-sans-rounded", "Helvetica-neue", Helvetica, sans-serif;
+@mixin logo {font-family: "fatfrank", "Helvetica-neue", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
 
 @mixin iconfont {font-family: "FontAwesome";
   -webkit-font-smoothing: antialiased;
@@ -29,7 +30,7 @@ body {
   padding-bottom: 4rem;
   min-height: 100%;
   @include sans;
-  font-size: 17px;
+  font-size: 16px;
 	font-weight: 400;
 	color: $DarkGrey;
 	a {
@@ -73,9 +74,9 @@ li {
 
 
 p {
-  line-height: 1.7em;
-  padding-bottom: .7em;
-  padding-top: .7em;
+  line-height: 1.6em;
+  padding-bottom: .5em;
+  padding-top: .4em;
 	a {
 	text-decoration: none;
 	color: $LinkColor;
@@ -112,7 +113,7 @@ hr {
   margin-bottom: 1.5em;
   border: 0;
   height: 0;
-  border-top: 1px solid $LightGrey;
+  border-top: 1px solid $DarkGrey;
 }
 
 h1 {
@@ -227,21 +228,21 @@ h6 {
 
 .byline {
   font-size: 1.1em;
-  color: $LightGrey;
+  color: $MiddleGrey;
   text-transform: none;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
 
 
 .link-icon {
-	font-size: 1.2em;
+	font-size: .8em;
 	padding-left: .5em;
-	color: $LinkColor;
+	color: $MiddleGrey;
 	a{
 		text-decoration: none;
-		color: $LinkColor;
+		color: $MiddleGrey;
 		border-bottom: none;
 	}
 }
@@ -253,7 +254,7 @@ h6 {
 	a {
 		text-decoration: none;
 		border-bottom: none;
-		color: $Green;
+		color: $Orange;
   }
 }
 
@@ -270,7 +271,7 @@ h6 {
 .page {
 	font-weight: 800;
 	font-size: 2.2em;
-	color: $Green;
+	color: $Orange;
 	a {
 		text-decoration: none;
 		border-bottom: none;
@@ -280,13 +281,15 @@ h6 {
 
 
 .link-post-title {
-	font-size: 1.45em;
-	font-weight: 700;
+	font-size: .9em;
+	font-weight: 500;
 	padding-bottom: .3em;
+
 	a {
-		color: $LinkColor;
+		color: $MiddleGrey;
 		text-decoration: none;
-		border-bottom: none;
+		border-bottom: 1pt solid $LightGrey;
+    line-height: normal;
 	}
 }
 
@@ -303,8 +306,7 @@ h6 {
 }
 
 .link-excerpt {
-	line-height: 1.9em;
-	padding-bottom: 6em;
+	line-height: 1.4em;
 	a {
 	text-decoration: none;
 	color: $LinkColor;
@@ -359,23 +361,25 @@ sup {
   }
 }
 
-.list_horizontal {
-  color: $DarkGrey;
+.list-horizontal {
+  color: $Orange;
+  @include sans;
   text-transform: uppercase;
   list-style: none;
   margin-left: 0 !important;
   margin-top: 0;
-  margin-bottom: 2em;
-  font-size: .9em;
-  a {
+  margin-bottom: 0em;
+  font-size: .95em;
+  span {
     color: white;
-    background: $DarkGrey;
-    padding: 2pt 6pt 2pt 6pt;
+    background: $Orange;
+    padding: 3pt 6pt 3pt 6pt;
     font-weight: 800;
   letter-spacing: .03em;
-    font-size: .8em;
+    font-size: .85em;
     text-decoration: none;
     border-radius: 4pt;
+    vertical-align: middle;
   }
   li {
     display:inline;
@@ -385,22 +389,54 @@ sup {
   }
 }
 
+.link-post {
+  padding-bottom: 2.5em;
+}
+
+
+.list-horizontal-alt {
+  a {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 800;
+  color: $DarkGrey;
+  background: $LightGrey;
+  padding: 3pt 6pt 3pt 6pt;
+  font-size: .85em;
+  text-decoration: none;
+  border-radius: 4pt;
+  margin-right: .3em;
+}
+  li {
+    display:inline;
+    line-height: 2em;
+    padding-right: .3em;
+    white-space:pre;
+  }
+}
+
+
 .excerpt {
 	line-height: 1.9em;
 	padding-bottom: 6em;
 	a {
 	text-decoration: none;
-	color: $Green;
+	color: $Orange;
 	}
 }
 
 .date {
-	font-size: .9em;
+	font-size: 1.1em;
 	font-weight: 600;
-	color: $MiddleGrey;
+  max-width: 200pt;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+	color: $DarkGrey;
 	margin-top: 1em;
 	margin-bottom: 1.4em;
-	letter-spacing: .02em;
+  text-transform:uppercase;
+	letter-spacing: .05em;
 }
 
 .recent-date {
@@ -415,7 +451,7 @@ blockquote {
   margin-bottom: .8em;
   margin-left: 0;
   padding-left: 1.5em;
-  border-left: 2px solid $Green;
+  border-left: 2px solid $Orange;
   p {
   display: inline;
   }
